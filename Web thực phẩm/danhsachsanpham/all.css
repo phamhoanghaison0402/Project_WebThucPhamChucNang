@@ -4861,6 +4861,7 @@ div.row-group div.form-row div.holder div h3 {
 
     .footer-holder.bottom-line p {
         margin: 0;
+        font-size:15px;
     }
 
 .footer-list {
@@ -8051,12 +8052,12 @@ div.input-holder-text-area textarea#Comments.required {
         font: 400 18px/20px "Noto Serif",Noto Serif,Noto Serif,serif;
         margin: 0 0 4px;
         color: #54585a;
-        ;
     }
 
         .products-listview .results-list .text-column h2 a {
             color: #54585a;
             font-weight:bold;
+            font-size:15px;
         }
 
     .products-listview .results-list .text-column .code {
@@ -9293,7 +9294,7 @@ input.btn-proced {
     .products-listview .gridview .text-column .tag {
         margin: 0 0 -1px;
         color: #54585a;
-        font: bold 11px/14px Noto Serif,Noto Serif,serif;
+        font: 14px/14px Noto Serif,Noto Serif,serif;
     }
 
     .products-listview .gridview .text-column h2 {
@@ -9329,7 +9330,7 @@ input.btn-proced {
 
     .products-listview .gridview .text-column .product-info .new-price {
         margin-left: 3px;
-        font: bold 13px/20px Noto Serif,Noto Serif,serif;
+        font: bold 15px/20px Noto Serif,Noto Serif,serif;
     }
 
         .products-listview .gridview .text-column .product-info .new-price sup {

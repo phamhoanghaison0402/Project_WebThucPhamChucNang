@@ -4516,6 +4516,7 @@ del.usualPrice {
 .footer-content .random-block {
     border-right: 4px solid #43B02A;
     width: 640px;
+    padding-top:12px;
 }
 
 .footer-content .social-block a {
@@ -4745,6 +4746,7 @@ a.Chatreference:hover {
                 display: inline;
                 margin-right: 2px;
                 color: #54585a;
+                font-weight:bold;
             }
 
             #AboutBrandPanel .rightPanel .results-list .text-column .product-info {

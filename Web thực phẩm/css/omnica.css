@@ -136,7 +136,7 @@
     padding: 0;
     border: 0;
     background: url(/images/btn-search_btn_up.png);
-    font: 500 18px/40px "Cabin",Cabin,Cabin,sans-serif;
+    font: 500 18px/40px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
     height: 40px;
     text-transform: uppercase;
     color: #fff;
@@ -159,7 +159,7 @@
     background: #43b02a;
     -webkit-border-radius: 0 4px 4px 0;
     border-radius: 0 4px 4px 0;
-    font: 500 13px/32px "Cabin",Cabin,Cabin,sans-serif;
+    font: 500 13px/32px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
     height: 32px;
     color: #fff;
     text-transform: uppercase;
@@ -198,7 +198,7 @@
 }
 
     .template-full-page h2 {
-        font: 700 18px/20px "Cabin",Cabin,Cabin,sans-serif;
+        font: 700 18px/20px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
         margin: 0 0 8px;
     }
 
@@ -215,7 +215,7 @@
 
     .myAccountContentArea a {
         color: #54585a;
-        font: 12px/15px Cabin,Cabin,sans-serif;
+        font: 12px/15px Noto Serif,Noto Serif,sans-serif;
         text-decoration: underline;
     }
 
@@ -248,7 +248,7 @@
 }
 
     .myAccount-form h2, .shipping-form.my-account h2 {
-        font: 700 24px/20px "Cabin",Cabin,Cabin,sans-serif;
+        font: 700 24px/20px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
         margin: 0 0 8px;
         padding: 0;
         border: none;
@@ -257,7 +257,7 @@
     .myAccount-form .row-group {
         overflow: hidden;
         color: #545454;
-        font: 13px/16px Cabin,Cabin,sans-serif;
+        font: 13px/16px Noto Serif,Noto Serif,sans-serif;
         padding: 31px 0 6px;
     }
 
@@ -292,12 +292,12 @@
     .myAccount-form .label-holder {
         float: left;
         padding: 12px 13px 0;
-        font: 400 15px/20px "Cabin",Cabin,Cabin,sans-serif;
+        font: 400 15px/20px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
     }
 
     .myAccount-form .row-group label {
         float: right;
-        font: 700 15px/20px "Cabin",Cabin,Cabin,sans-serif;
+        font: 700 15px/20px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
         text-transform: uppercase;
         margin: 12px 0 0;
         color: #54585a;
@@ -310,7 +310,7 @@
         border: 0;
         background: none;
         color: #464646;
-        font: 600 15px/17px "Cabin",Cabin,Cabin,serif;
+        font: 600 15px/17px "Noto Serif",Noto Serif,Noto Serif,serif;
         height: 17px;
         width: 100%;
         outline: none;
@@ -319,7 +319,7 @@
     .myAccount-form .input-holder select {
         padding: 6px 0;
         width: 100%;
-        font: 600 15px/17px "Cabin",Cabin,Cabin,serif;
+        font: 600 15px/17px "Noto Serif",Noto Serif,Noto Serif,serif;
         border: 0;
         background: none;
         color: #464646;
@@ -348,7 +348,7 @@
 
 .signin-form .head h2 {
     overflow: hidden;
-    font: 700 23px/27px "Cabin",Cabin,Cabin,serif;
+    font: 700 23px/27px "Noto Serif",Noto Serif,Noto Serif,serif;
 }
 
 .listing-page .template-full-page, .department-page .template-full-page, .landing-page .template-full-page {
@@ -367,7 +367,7 @@
 }
 
 .department-page h1 {
-    font: 900 46px/50px "Cabin",sans-serif;
+    font: 900 46px/50px "Noto Serif",sans-serif;
     margin: 0 0 8px;
     max-width: 640px;
     color: #54585a;
@@ -485,7 +485,7 @@
     margin: 0;
     padding: 0;
     color: #39803c;
-    font: 800 18px/20px "Cabin",Cabin,Cabin,serif;
+    font: 800 18px/20px "Noto Serif",Noto Serif,Noto Serif,serif;
     border-radius: 0;
     height: auto;
     width: auto;
@@ -529,7 +529,7 @@
     margin-right: 0;
     display: block;
     z-index: -1;
-    font: 500 14px/18px "Cabin",Cabin,Cabin,sans-serif;
+    font: 500 14px/18px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
     text-transform: uppercase;
     padding-top: 8px;
     color: #81878a;
@@ -687,7 +687,7 @@
     .results-section .Aisle7_Content .main-holder #hni_SearchResultsTopBar {
         background: url("/images/compare_background.jpg") repeat scroll 0 0 rgba(0,0,0,0);
         color: #3E3E3E;
-        font: 500 14px/20px "Cabin",Cabin,Cabin,sans-serif;
+        font: 500 14px/20px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
         margin: 0 0 17px;
         padding: 9px 14px 11px;
         text-transform: uppercase;
@@ -705,18 +705,18 @@
 
     .results-section .Aisle7_Content .main-holder h2.hnise_Title {
         color: #3E3E3E;
-        font: italic 22px/31px Cabin,serif !important;
+        font: italic 22px/31px Noto Serif,serif !important;
     }
 
         .results-section .Aisle7_Content .main-holder h2.hnise_Title .hni_SearchResults_Term {
             color: #43b02a;
-            font: 500 27px/31px "Cabin",Cabin,Cabin,sans-serif !important;
+            font: 500 27px/31px "Noto Serif",Noto Serif,Noto Serif,sans-serif !important;
             text-transform: capitalize;
         }
 
     .results-section .Aisle7_Content .main-holder .hni_SearchResultTitle a {
         color: #43b02a;
-        font: 500 24px/24px "Cabin",Cabin,Cabin,sans-serif;
+        font: 500 24px/24px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
         margin: 0 0 7px;
         display: inline-block;
         text-decoration: none !important;
@@ -728,27 +728,27 @@
 
     .results-section .Aisle7_Content .main-holder .hni_SearchResultDescription {
         color: #3E3E3E;
-        font: 15px/22px Cabin,serif;
+        font: 15px/22px Noto Serif,serif;
         margin: 0 0 4px;
     }
 
     .results-section .Aisle7_Content .main-holder .hni_SearchResultCategory {
         color: #707070;
         display: block;
-        font: italic 13px/28px Cabin,serif;
+        font: italic 13px/28px Noto Serif,serif;
     }
 
         .results-section .Aisle7_Content .main-holder .hni_SearchResultCategory span.hni_SearchResultCategoryTerm {
             background: none repeat scroll 0 0 rgba(0,0,0,0);
             color: #707070;
-            font: 15px/28px "Cabin",Cabin,Cabin,sans-serif;
+            font: 15px/28px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
             text-transform: uppercase;
             font-style: normal;
         }
 
 .hni_Pager {
     float: left;
-    font: 500 13px/25px "Cabin",Cabin,Cabin,sans-serif !important;
+    font: 500 13px/25px "Noto Serif",Noto Serif,Noto Serif,sans-serif !important;
     margin: 0 11px 0 0;
 }
 
@@ -810,7 +810,7 @@
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     border-radius: 5px;
-    font: 500 14px/14px "Cabin",Cabin,Cabin,sans-serif;
+    font: 500 14px/14px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
 }
 
     .products-listview .tabset li {
@@ -854,7 +854,7 @@
         border-radius: 9px;
         color: #fff;
         padding: 0 7px;
-        font: 500 14px/20px "Cabin",Cabin,Cabin,sans-serif;
+        font: 500 14px/20px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
     }
 
     .products-listview .tabset li a:hover .number, .products-listview .tabset li .active .number {
@@ -1057,14 +1057,14 @@ div#br1, div#br2, div#br3, div#br4 {
 
     .lucky .ui-autocomplete li.ui-menu-item a {
         padding: 7px 13px 7px 15px;
-        font: 12px/15px Cabin,Cabin,sans-serif;
+        font: 12px/15px Noto Serif,Noto Serif,sans-serif;
         width: 163px;
     }
 
 .lucky .ui-menu .ui-menu-item a {
-    font-family: Cabin,Cabin,sans-serif;
+    font-family: Noto Serif,Noto Serif,sans-serif;
     font-weight: bold;
-    font: 12px/15px Cabin,Cabin,sans-serif;
+    font: 12px/15px Noto Serif,Noto Serif,sans-serif;
 }
 
 .lucky .ui-autocomplete:after {
@@ -1134,7 +1134,7 @@ div#br1, div#br2, div#br3, div#br4 {
 }
 
 .lucky ul.ui-autocomplete li > b, .lucky .ui-autocomplete.nxt-autocomplete li.ui-menu-item a, .lucky .ui-menu .ui-state-focus, .lucky .ui-menu .ui-state-hover {
-    font: 12px/15px Cabin,Cabin,sans-serif;
+    font: 12px/15px Noto Serif,Noto Serif,sans-serif;
     padding: 7px 10px 7px 10px;
 }
 
@@ -1263,7 +1263,7 @@ div#br1, div#br2, div#br3, div#br4 {
 }
 
 .products-listview .no-results {
-    font: 15px/29px Cabin,serif;
+    font: 15px/29px Noto Serif,serif;
     color: #3E3E3E;
 }
 
@@ -1316,7 +1316,7 @@ a.page-size {
     overflow: hidden;
     text-transform: uppercase;
     color: #3e3e3e;
-    font: 500 15px/17px "Cabin",Cabin,Cabin,sans-serif !important;
+    font: 500 15px/17px "Noto Serif",Noto Serif,Noto Serif,sans-serif !important;
     padding: 7px 5px 0 0;
 }
 
@@ -1376,7 +1376,7 @@ a.page-size {
         padding: 10px 15px;
         text-transform: uppercase;
         color: #fff;
-        font: 500 18px/44px "Cabin",Cabin,Cabin,sans-serif;
+        font: 500 18px/44px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
         height: 44px;
         background: #bf4123 url(/images/btn-more_button_over.png);
         box-shadow: 0 2px 0 rgba(0,0,0,0.1);
@@ -1393,7 +1393,7 @@ h2#h2Default {
 }
 
 .Aisle7_Content h2 {
-    font: 700 28px "Cabin",Cabin,Cabin,sans-serif;
+    font: 700 28px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
     margin: 20px 0;
 }
 
@@ -1413,22 +1413,22 @@ h2#h2Default {
     }
 
 .hni_WidgetFrame_Title, .hnise_Title {
-    font: 00 17px/19px "Cabin",Cabin,Cabin,sans-serif !important;
+    font: 00 17px/19px "Noto Serif",Noto Serif,Noto Serif,sans-serif !important;
     padding: 8px !important;
 }
 
 h2.hnise_Title {
-    font: 700 26px/27px "Cabin",Cabin,Cabin,sans-serif !important;
+    font: 700 26px/27px "Noto Serif",Noto Serif,Noto Serif,sans-serif !important;
     padding: 0 !important;
 }
 
 .hnie_SubTitle {
-    font: 100 16px/16px "Cabin",Cabin,Cabin,serif;
+    font: 100 16px/16px "Noto Serif",Noto Serif,Noto Serif,serif;
     padding: 0 !important;
 }
 
 .hni_LandingPage_Table {
-    font: 600 17px/19px "Cabin",Cabin,Cabin,sans-serif;
+    font: 600 17px/19px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
 }
 
 .hnie_UnstructuredBody, .hni_NewswireLogoContainer {
@@ -1489,13 +1489,13 @@ table#hni_LandingPage_OtherRelCont td p a em {
 }
 
 .hnise_ItemText h4, .hnise_ItemText h3 {
-    font: 700 21px/25px "Cabin",Cabin,Cabin,sans-serif;
+    font: 700 21px/25px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
     font-weight: bold;
     margin: 20px 0 8px;
 }
 
 .hnise_ItemText p, .hnise_ItemText {
-    font-family: Cabin,serif !important;
+    font-family: Noto Serif,serif !important;
     font-size: 16px !important;
     font-weight: normal !important;
     line-height: 29px !important;
@@ -1661,7 +1661,7 @@ div.hnie_Nutrition {
     text-align: center;
     clear: both;
     width: 100%;
-    font: 300 15px/46px "Cabin",sans-serif;
+    font: 300 15px/46px "Noto Serif",sans-serif;
 }
 
     .OrderHistoryTable .head, .OrderHistoryTable .col {
@@ -1788,12 +1788,12 @@ button.btn-proced, .btn.chkoutguest {
 }
 
     .review-block-text h3 {
-        font: 700 24px/25px "Cabin",sans-serif !important;
+        font: 700 24px/25px "Noto Serif",sans-serif !important;
         margin: 0 !important;
     }
 
 .review-large-text {
-    font: 900 71px/76px "Cabin",Cabin,Cabin,sans-serif !important;
+    font: 900 71px/76px "Noto Serif",Noto Serif,Noto Serif,sans-serif !important;
     padding: 0;
     margin: 0 !important;
     color: #43b02a !important;
@@ -1802,7 +1802,7 @@ button.btn-proced, .btn.chkoutguest {
 .review-block-text span {
     color: #81878a;
     width: 394px;
-    font: 400 15px/22px "Cabin",Cabin,Cabin,sans-serif;
+    font: 400 15px/22px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
 }
 
 .write-review-btn {
@@ -1894,7 +1894,7 @@ label.form-value {
 
 .cart-page .heading-top .btn-processing, .cart-page .footer-bottom .btn-processing {
     color: #707070;
-    font: 500 14px/18px "Cabin",Cabin,Cabin,sans-serif;
+    font: 500 14px/18px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
     background: #f1f0ef;
     border-radius: 3px;
     margin: 0;
@@ -1911,7 +1911,7 @@ label.form-value {
 
 .btn.chkoutguest .btn-processing {
     color: #707070;
-    font: 500 14px/18px "Cabin",Cabin,Cabin,sans-serif;
+    font: 500 14px/18px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
     background: #f1f0ef;
     border-radius: 3px;
     margin: 0;
@@ -1965,7 +1965,7 @@ label.form-value {
 }
 
 h2.landing-divider {
-    font: 700 21px/25px "Cabin",Cabin,Cabin,sans-serif;
+    font: 700 21px/25px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
     width: 100%;
     clear: both;
     border-bottom: 4px solid #dedede;
@@ -2024,7 +2024,7 @@ h2.landing-divider {
 .shop-categories .cat-nav .list li.all .btn-all {
     color: #FFFFFF;
     float: right;
-    font: 500 14px/16px "Cabin",sans-serif;
+    font: 500 14px/16px "Noto Serif",sans-serif;
     margin: 0 0 0 4px;
     overflow: hidden;
     padding: 8px 0 7px;
@@ -2062,7 +2062,7 @@ h2.landing-divider {
     height: 52px;
     background: transparent url("../images/tag-sprite.png") no-repeat scroll 0 -93px;
     overflow: hidden;
-    font: 700 18px/15px "Cabin",Cabin,Cabin,sans-serif;
+    font: 700 18px/15px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
     color: #54585a;
 }
 
@@ -2124,7 +2124,7 @@ h2.landing-divider {
         float: left;
         background: url('../images/sprite-ico.png') no-repeat scroll -473px -151px transparent;
         color: #345E9E;
-        font: bold 12px/13px Cabin,Cabin,sans-serif;
+        font: bold 12px/13px Noto Serif,Noto Serif,sans-serif;
         margin: 6px 0 0 0;
         text-transform: lowercase;
         width: 140px;
@@ -2168,7 +2168,7 @@ h2.landing-divider {
     width: auto !important;
     float: left;
     margin-top: 3px;
-    font: bold 11px Cabin,Cabin,sans-serif;
+    font: bold 11px Noto Serif,Noto Serif,sans-serif;
     min-height: 12px;
     color: #54585a;
 }
@@ -2248,7 +2248,7 @@ h2.landing-divider {
 }
 
 .prodTitle {
-    font: 600 21px/25px "Cabin",Cabin,Cabin,serif;
+    font: 600 21px/25px "Noto Serif",Noto Serif,Noto Serif,serif;
     color: #3e3e3e;
     margin: 0 0 20px;
 }
@@ -2261,7 +2261,7 @@ h2.landing-divider {
     float: left;
     clear: both;
     color: #707070;
-    font: 14px/24px Cabin,Cabin,sans-serif;
+    font: 14px/24px Noto Serif,Noto Serif,sans-serif;
     margin: 4px 0 10px;
 }
 
@@ -2318,7 +2318,7 @@ h2.landing-divider {
 
 .checkout .valid-error {
     color: #3e3e3e;
-    font: bold 13px/15px Cabin,Cabin,sans-serif;
+    font: bold 13px/15px Noto Serif,Noto Serif,sans-serif;
 }
 
 .checkout .proceed-area input[type="submit"].loading, .checkout .proceed-area button[type="submit"].loading, .shipping-form .heading .btn.order.loading {
@@ -2348,7 +2348,7 @@ h2.landing-divider {
     border-radius: 5px;
     box-shadow: none;
     color: #3e3e3e;
-    font: 500 14px/30px "Cabin",Cabin,Cabin,sans-serif;
+    font: 500 14px/30px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
     margin-top: 11px;
     padding: 0 16px;
     margin-left: 25px;
@@ -2378,7 +2378,7 @@ h2.landing-divider {
 }
 
 .lightbox-content .card-block h2 {
-    font: 700 27px/35px "Cabin",Cabin,Cabin,sans-serif !important;
+    font: 700 27px/35px "Noto Serif",Noto Serif,Noto Serif,sans-serif !important;
     margin: 0 0 12px;
 }
 
@@ -2395,7 +2395,7 @@ h2.landing-divider {
 }
 
 .checkout .shipping-form.cvv-code .ending {
-    font: bold 14px/18px Cabin,Cabin,sans-serif;
+    font: bold 14px/18px Noto Serif,Noto Serif,sans-serif;
     margin-top: 0;
     padding-left: 7px;
     padding-top: 5px;
@@ -2458,7 +2458,7 @@ h2.landing-divider {
 }
 
 h1.saved-card-title {
-    font: 700 35px/35px "Cabin",Cabin,Cabin,sans-serif !important;
+    font: 700 35px/35px "Noto Serif",Noto Serif,Noto Serif,sans-serif !important;
 }
 
 .heading .btn.new-payment {
@@ -2467,7 +2467,7 @@ h1.saved-card-title {
     right: 0;
     top: 31px;
     color: #54585a;
-    font: 500 18px/40px "Cabin",Cabin,Cabin,sans-serif;
+    font: 500 18px/40px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
     padding: 0 20px;
 }
 
@@ -2510,7 +2510,7 @@ h1.saved-card-title {
     float: none;
     text-decoration: none;
     font-size: 9px;
-    font-family: Cabin,Cabin,sans-serif;
+    font-family: Noto Serif,Noto Serif,sans-serif;
     font-weight: normal;
 }
 
@@ -2557,7 +2557,7 @@ h1.saved-card-title {
     width: 100%;
     height: 20px;
     color: #dc7f00;
-    font: 700 14px/15px "franklin-gotic-urw",Cabin,Cabin,sans-serif;
+    font: 700 14px/15px "franklin-gotic-urw",Noto Serif,Noto Serif,sans-serif;
     margin-top: 2px;
 }
 
@@ -2572,7 +2572,7 @@ h1.saved-card-title {
 }
 
     .sppListing .sppAvailabilityCount div span {
-        font: 700 20px/15px "franklin-gotic-urw",Cabin,Cabin,sans-serif;
+        font: 700 20px/15px "franklin-gotic-urw",Noto Serif,Noto Serif,sans-serif;
     }
 
 .sppListing .usualy {
@@ -2590,7 +2590,7 @@ h1.saved-card-title {
 .resetConfirmationPanel .top-message {
     overflow: hidden;
     background: none repeat scroll 0 0 #9dc144;
-    font: bold 13px/15px Cabin,Cabin,sans-serif;
+    font: bold 13px/15px Noto Serif,Noto Serif,sans-serif;
     padding: 13px 18px 17px;
     margin: -23px 0 23px;
 }
@@ -2598,21 +2598,21 @@ h1.saved-card-title {
     .resetConfirmationPanel .top-message h2 {
         color: #3b853e;
         text-transform: none;
-        font: 500 27px/31px "Cabin",Cabin,Cabin,sans-serif;
+        font: 500 27px/31px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
         word-spacing: 2px;
         padding: 0;
         margin: 0 0 0 -1px;
     }
 
 .product-box .block-area .text-holder {
-    font: 15px/29px Cabin,serif;
+    font: 15px/29px Noto Serif,serif;
     color: #3e3e3e;
     margin: 1em 0;
     line-height: 22px;
 }
 
     .product-box .block-area .text-holder > p {
-        font: 15px/29px Cabin,serif;
+        font: 15px/29px Noto Serif,serif;
         margin: 0 0 24px;
         line-height: 22px;
     }
@@ -2622,7 +2622,7 @@ h1.saved-card-title {
     }
 
     .product-box .block-area .text-holder ul, .product-box .block-area .text-holder ol {
-        font: 15px/29px Cabin,serif;
+        font: 15px/29px Noto Serif,serif;
         margin: 0 0 24px;
         list-style-type: disc;
         margin-left: 40px;
@@ -2670,7 +2670,7 @@ a.toolowprice {
     padding-top: 4px !important;
     padding-bottom: 4px !important;
     color: #345E9E !important;
-    font: 11px/14px Cabin,Cabin,sans-serif !important;
+    font: 11px/14px Noto Serif,Noto Serif,sans-serif !important;
     display: block;
     border: 0 !important;
     text-decoration: none !important;
@@ -2679,7 +2679,7 @@ a.toolowprice {
 
     a.toolowprice:hover {
         color: #345E9E !important;
-        font: 11px/14px Cabin,Cabin,sans-serif !important;
+        font: 11px/14px Noto Serif,Noto Serif,sans-serif !important;
         display: block;
         border: 0 !important;
         text-decoration: underline !important;
@@ -2713,7 +2713,7 @@ a.toolowprice {
 .sppListing .gridview .btn-cart {
     float: right;
     color: #54585a;
-    font: 700 15px/20px "Cabin",sans-serif;
+    font: 700 15px/20px "Noto Serif",sans-serif;
     text-transform: uppercase;
     text-align: center;
     background-color: #ffc658;
@@ -2757,7 +2757,7 @@ a.toolowprice {
     background: url(/images/sep-dashed01.png) repeat-x 0 100%;
     padding: 2px 0 7px;
     text-transform: uppercase;
-    font: 500 13px/13px "Cabin",Cabin,Cabin,sans-serif;
+    font: 500 13px/13px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
     color: #4b894d;
     margin: 0 0 8px;
 }
@@ -2768,13 +2768,13 @@ a.toolowprice {
         margin: 0 0 0 6px;
         min-height: 33px;
         color: #39803c;
-        font: 500 18px/18px "Cabin",Cabin,Cabin,sans-serif;
+        font: 500 18px/18px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
     }
 
     .description-area .aside-area .shipping-surcharge .title {
         display: block;
         color: #878787;
-        font: 500 13px/15px "Cabin",Cabin,Cabin,sans-serif;
+        font: 500 13px/15px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
     }
 
     .description-area .aside-area .shipping-surcharge .opener {
@@ -2969,12 +2969,12 @@ a.toolowprice {
 }
 
 .no-results-inner h1 {
-    font: 900 45px/50px "Cabin",Cabin,Cabin,sans-serif;
+    font: 900 45px/50px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
     color: #54585a;
 }
 
 .no-results-inner h2 {
-    font: 400 18px/22px "Cabin",Cabin,Cabin,sans-serif;
+    font: 400 18px/22px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
     color: #81878a;
     font-style: italic;
     margin-top: 5px;
@@ -2984,7 +2984,7 @@ a.toolowprice {
     overflow: hidden;
     background: #fff;
     border-top: 4px solid #43b02a;
-    font: bold 16px/15px Cabin,Cabin,sans-serif;
+    font: bold 16px/15px Noto Serif,Noto Serif,sans-serif;
     color: #535353;
     margin: 0 0 15px;
     clear: both;
@@ -3011,7 +3011,7 @@ a.toolowprice {
 
     .searchFormWrapper p {
         text-align: center;
-        font: 700 17px/25px "Cabin",Cabin,Cabin,sans-serif;
+        font: 700 17px/25px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
         color: #54585a;
     }
 
@@ -3029,7 +3029,7 @@ a.toolowprice {
 }
 
     .advancedSearchFormWrapper p {
-        font: 700 17px/25px "Cabin",Cabin,Cabin,sans-serif;
+        font: 700 17px/25px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
         font-weight: bold;
     }
 
@@ -3038,7 +3038,7 @@ a.toolowprice {
         }
 
 .sponsored-by {
-    font: 600 12px/12px "Cabin",Cabin,Cabin,serif;
+    font: 600 12px/12px "Noto Serif",Noto Serif,Noto Serif,serif;
     color: #999999;
 }
 
@@ -3247,7 +3247,7 @@ ul.unlucky-items {
 .unlucky-dont-fret {
     background: url('../images/bubble.png') no-repeat;
     color: #3e3e3e;
-    font: 700 17px/20px "Cabin",Cabin,Cabin,serif;
+    font: 700 17px/20px "Noto Serif",Noto Serif,Noto Serif,serif;
     text-align: center;
     padding: 28px 11px 0;
     height: 172px;
@@ -3256,7 +3256,7 @@ ul.unlucky-items {
 }
 
     .unlucky-dont-fret p.large {
-        font: 800 44px/42px "Cabin",Cabin,Cabin,serif;
+        font: 800 44px/42px "Noto Serif",Noto Serif,Noto Serif,serif;
     }
 
 .unlucky-alternatives-wrapper {
@@ -3268,7 +3268,7 @@ ul.unlucky-items {
     .unlucky-alternatives-wrapper > .title {
         text-align: center;
         color: #3e3e3e;
-        font: 600 21px/24px "Cabin",Cabin,Cabin,serif;
+        font: 600 21px/24px "Noto Serif",Noto Serif,Noto Serif,serif;
     }
 
     .unlucky-alternatives-wrapper > .content {
@@ -3301,12 +3301,12 @@ ul.unlucky-items {
                 .unlucky-alternatives-wrapper > .content > ul > li .price {
                     display: block;
                     color: #474747;
-                    font: bold 15px/26px Cabin,Cabin,sans-serif;
+                    font: bold 15px/26px Noto Serif,Noto Serif,sans-serif;
                 }
 
                     .unlucky-alternatives-wrapper > .content > ul > li .price .old-price {
                         color: #474747;
-                        font: 12px/26px Cabin,Cabin,sans-serif;
+                        font: 12px/26px Noto Serif,Noto Serif,sans-serif;
                         text-decoration: line-through;
                     }
 
@@ -3339,7 +3339,7 @@ span.popup-open {
 }
 
     .rememberme label {
-        font: 500 14px/20px "Cabin",sans-serif;
+        font: 500 14px/20px "Noto Serif",sans-serif;
         color: #81878a !important;
         margin-left: 4px;
         margin-top: 1px;
@@ -3425,7 +3425,7 @@ button .text, a.btn-checkout .text {
     }
 
 a.AddToWishlist.btn, a.AddToRegimen.btn {
-    font: 10px Cabin,Cabin,sans-serif;
+    font: 10px Noto Serif,Noto Serif,sans-serif;
     text-transform: none;
     margin-top: 10px;
     background-color: #FFF;
@@ -3454,7 +3454,7 @@ li.msiLink {
 .buttonView {
     display: inline-block;
     color: #ffffff !important;
-    font: 500 10px Cabin,Cabin,sans-serif;
+    font: 500 10px Noto Serif,Noto Serif,sans-serif;
     text-transform: uppercase;
     text-align: center;
     background: #9BC244;
@@ -3478,7 +3478,7 @@ img.lazyPrint {
 }
 
 #emailWhenInStockForm .reg-form .holder label {
-    font: 700 15px/20px "Cabin",sans-serif;
+    font: 700 15px/20px "Noto Serif",sans-serif;
     margin-top: 0;
 }
 
@@ -3511,7 +3511,7 @@ img.lazyPrint {
     box-shadow: 0 1px 0 0 #cd9f47;
     color: #54585a !important;
     float: left;
-    font: 700 15px/46px "Cabin",sans-serif;
+    font: 700 15px/46px "Noto Serif",sans-serif;
     height: 46px;
     text-decoration: none;
     text-transform: uppercase;
@@ -3527,11 +3527,11 @@ img.lazyPrint {
     width: 100%;
     border: 5px solid #e2f3b5;
     background-color: #fef9db;
-    font-family: "Cabin",sans-serif;
+    font-family: "Noto Serif",sans-serif;
 }
 
 .myaccount-link {
-    font: 700 16px/16px "Cabin",Cabin,Cabin,sans-serif;
+    font: 700 16px/16px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
     margin-top: 15px;
 }
 
@@ -3579,7 +3579,7 @@ img.lazyPrint {
 }
 
     .how-it-works-banner-overlay p {
-        font-family: "Cabin",sans-serif;
+        font-family: "Noto Serif",sans-serif;
         font-size: 18px;
         margin-top: 10px;
         line-height: 22px;
@@ -3595,7 +3595,7 @@ img.lazyPrint {
     float: left;
     clear: both;
     width: 100%;
-    font-family: "Cabin",sans-serif;
+    font-family: "Noto Serif",sans-serif;
     font-size: 18px;
     line-height: 22px;
 }
@@ -3697,7 +3697,7 @@ img.lazyPrint {
 
         .quick-reorder-listing .results-list .text-column .product-info .new-price, .quick-reorder-listing .results-list .text-column .product-info .new-price sup {
             font-size: 20px;
-            font-family: "Cabin",Cabin,Cabin,sans-serif;
+            font-family: "Noto Serif",Noto Serif,Noto Serif,sans-serif;
         }
 
             .quick-reorder-listing .results-list .text-column .product-info .new-price sup {
@@ -3814,7 +3814,7 @@ a.reward-points::before, a.reward-points::after {
     font-size: 14px;
     color: #8b9193;
     font-weight: 500;
-    font-family: "Cabin",Cabin,Cabin,sans-serif;
+    font-family: "Noto Serif",Noto Serif,Noto Serif,sans-serif;
 }
 
 .quick-reorder-listing .pricing-column .info-block .qty-form input[type="text"] {
@@ -3957,11 +3957,11 @@ a.reward-points::before, a.reward-points::after {
     #popupShipping.lightbox-content .head h1, #popupMemberBilling.lightbox-content .head h1, #popupGuestBilling.lightbox-content .head h1, #popupGuestEmail.lightbox-content .head h1 {
         margin-left: 20px;
         font-weight: 900;
-        font: 900 36px/40px "Cabin",Cabin,Cabin,sans-serif;
+        font: 900 36px/40px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
     }
 
 #popupShipping.lightbox-content h2, #popupMemberBilling.lightbox-content h2, #popupGuestBilling.lightbox-content h2, #popupGuestEmail.lightbox-content h2 {
-    font: 700 27px/35px "Cabin",Cabin,Cabin,sans-serif !important;
+    font: 700 27px/35px "Noto Serif",Noto Serif,Noto Serif,sans-serif !important;
 }
 
     #popupShipping.lightbox-content h2.current, #popupMemberBilling.lightbox-content h2.current, #popupGuestBilling.lightbox-content h2.current, #popupGuestEmail.lightbox-content h2.current {
@@ -4007,7 +4007,7 @@ a.reward-points::before, a.reward-points::after {
 }
 
 .checkout-content-block .check-row .title {
-    font: 700 15px "Cabin",Cabin,Cabin,sans-serif !important;
+    font: 700 15px "Noto Serif",Noto Serif,Noto Serif,sans-serif !important;
 }
 
 .indicates {
@@ -4018,12 +4018,12 @@ a.reward-points::before, a.reward-points::after {
 .dark {
     float: left;
     color: #54585a;
-    font: 700 17px/25px "Cabin",Cabin,Cabin,sans-serif;
+    font: 700 17px/25px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
     width: 160px;
 }
 
 .account-form .dark {
-    font: 700 31px/32px "Cabin",Cabin,Cabin,sans-serif;
+    font: 700 31px/32px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
 }
 
 .areaLinks {
@@ -4080,7 +4080,7 @@ a.reward-points::before, a.reward-points::after {
 
 tr.free-row .total .cost {
     text-transform: uppercase;
-    font: 500 15px/25px "Cabin",Cabin,Cabin,sans-serif !important;
+    font: 500 15px/25px "Noto Serif",Noto Serif,Noto Serif,sans-serif !important;
     right: 15px;
     left: auto;
 }
@@ -4178,7 +4178,7 @@ del.usualPrice {
         color: #707070;
         border-bottom: 4px solid #c5e86c;
         margin: 0 0 13px;
-        font: 11px/25px Cabin,Cabin,sans-serif;
+        font: 11px/25px Noto Serif,Noto Serif,sans-serif;
     }
 
     .luckyCarousel.carousel-column .title.title-lucky {
@@ -4191,7 +4191,7 @@ del.usualPrice {
             padding: 0;
             font-size: 21px;
             font-weight: 700;
-            font-family: 'Cabin',Cabin,Cabin,sans-serif;
+            font-family: 'Noto Serif',Noto Serif,Noto Serif,sans-serif;
             position: relative;
             top: -15px;
             left: 30px;
@@ -4242,7 +4242,7 @@ del.usualPrice {
 .quickreordercart .btn-all {
     color: #54585a;
     text-transform: uppercase;
-    font: normal 13px Cabin,Cabin,sans-serif;
+    font: normal 13px Noto Serif,Noto Serif,sans-serif;
     float: right;
     padding-top: 3px;
     padding-right: 15px;
@@ -4348,7 +4348,7 @@ del.usualPrice {
         border-bottom: 4px solid #c5e86c;
         padding: 0 0 3px;
         margin: 0 0 13px;
-        font: 11px/25px Cabin,Cabin,sans-serif;
+        font: 11px/25px Noto Serif,Noto Serif,sans-serif;
     }
 
         .luckyCarousel.carousel-column .title.title-lucky h2, .luckyCarousel.carousel-column-single .title.title-lucky h2 {
@@ -4357,7 +4357,7 @@ del.usualPrice {
             padding: 0;
             font-size: 21px;
             font-weight: 700;
-            font-family: 'Cabin',Cabin,â€‹Cabin,sans-serif;
+            font-family: 'Noto Serif',Noto Serif,â€‹Noto Serif,sans-serif;
             color: #54585a;
             position: relative;
             top: -15px;
@@ -4410,7 +4410,7 @@ del.usualPrice {
         padding-top: 4px;
         padding-left: 107px;
         text-transform: Capitalize !important;
-        font: 11px/13px Cabin,Cabin,sans-serif;
+        font: 11px/13px Noto Serif,Noto Serif,sans-serif;
     }
 
     .pdp .description-area .aside-area .day90-area .opener {
@@ -4421,14 +4421,14 @@ del.usualPrice {
 .pdp .description-area .aside-area .reward-area span {
     padding-right: 10px;
     float: left;
-    font: 11px/13px Cabin,Cabin,sans-serif;
+    font: 11px/13px Noto Serif,Noto Serif,sans-serif;
 }
 
 .pdp .description-area .aside-area .reward-area .text-holder {
     background: none;
     padding: 2px 0 0 19px;
     position: relative;
-    font: 10px/13px Cabin,Cabin,sans-serif;
+    font: 10px/13px Noto Serif,Noto Serif,sans-serif;
     color: #81878a;
     text-transform: Capitalize !important;
 }
@@ -4449,7 +4449,7 @@ del.usualPrice {
     padding: 4px 0 0;
     padding-left: 6px;
     margin: 0 0 -7px;
-    font: bold 11px/12px Cabin,Cabin,sans-serif;
+    font: bold 11px/12px Noto Serif,Noto Serif,sans-serif;
     text-transform: Capitalize !important;
     color: #54585a;
 }
@@ -4462,7 +4462,7 @@ del.usualPrice {
     background: none;
     padding: 5px 0 0 25px;
     position: relative;
-    font: 11px/13px Cabin,Cabin,sans-serif;
+    font: 11px/13px Noto Serif,Noto Serif,sans-serif;
     color: #81878a;
     text-transform: Capitalize !important;
 }
@@ -4482,13 +4482,13 @@ del.usualPrice {
 
     .footer-content .whitebanner p {
         color: #81878A;
-        font: 11px/13px Cabin,Cabin,sans-serif;
+        font: 11px/13px Noto Serif,Noto Serif,sans-serif;
         padding-top: 3px;
     }
 
     .footer-content .whitebanner h2 {
         color: #54585A;
-        font: 900 22px/23px "Cabin",Cabin,Cabin,sans-serif;
+        font: 900 22px/23px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
     }
 
     .footer-content .whitebanner p a {
@@ -4634,7 +4634,7 @@ a.Chatreference:hover {
 }
 
 .box-total .savings .text {
-    font: bold 11px/14px Cabin,Cabin,sans-serif !important;
+    font: bold 11px/14px Noto Serif,Noto Serif,sans-serif !important;
     color: #000000 !important;
     text-transform: capitalize !important;
 }
@@ -4672,7 +4672,7 @@ a.Chatreference:hover {
 
             .aboutHeader ul li a {
                 color: #43b02a;
-                font: 700 14px/16px "Cabin",Cabin,Cabin,sans-serif;
+                font: 700 14px/16px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
             }
 
                 .aboutHeader ul li a:hover {
@@ -4726,7 +4726,7 @@ a.Chatreference:hover {
 
         #AboutBrandPanel .rightPanel .subHeader {
             color: #54585a;
-            font: 13px/1px Cabin,Cabin,sans-serif;
+            font: 13px/1px Noto Serif,Noto Serif,sans-serif;
         }
 
         #AboutBrandPanel .rightPanel .results-list .text-column {
@@ -4738,7 +4738,7 @@ a.Chatreference:hover {
 
             #AboutBrandPanel .rightPanel .results-list .text-column a {
                 color: #54585a;
-                font: 10px/12px Cabin,Cabin,sans-serif !important;
+                font: 10px/12px Noto Serif,Noto Serif,sans-serif !important;
             }
 
             #AboutBrandPanel .rightPanel .results-list .text-column .retail {
@@ -4767,7 +4767,7 @@ a.Chatreference:hover {
 
     #AboutBrandPanel h2.topSelling, h2.specialtiesH2 {
         color: #43b02a;
-        font: 700 18px/20px "Cabin",Cabin,Cabin,sans-serif;
+        font: 700 18px/20px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
     }
 
 .brandContent .content-banner {
@@ -4792,7 +4792,7 @@ a.Chatreference:hover {
     padding: 0 10px !important;
     background: none !important;
     color: #54585a !important;
-    font: 15px/17px Cabin,Cabin,sans-serif !important;
+    font: 15px/17px Noto Serif,Noto Serif,sans-serif !important;
     height: 60px !important;
     width: 406px !important;
     outline: none !important;
@@ -4860,7 +4860,7 @@ li.hideSpecialty, div.hidePanel {
     height: 27px;
     border: 1px solid #d4d4d4;
     width: 100px;
-    font: 700 12px/12px "Cabin",Cabin,Cabin,sans-serif;
+    font: 700 12px/12px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
 }
 
 .floatIcon {
@@ -4901,7 +4901,7 @@ li.hideSpecialty, div.hidePanel {
 .viewAllProdBtn {
     float: left;
     color: #54585a;
-    font: 700 12px/12px "Cabin",Cabin,Cabin,sans-serif;
+    font: 700 12px/12px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
     text-transform: uppercase;
     background: #ffc658;
     text-decoration: none;
@@ -4955,7 +4955,7 @@ li.hideSpecialty, div.hidePanel {
 .restrictedProuctsErrorWrapper {
     display: inline-block;
     border: 4px solid #ffc658 !important;
-    font-family: "Cabin",Cabin,Cabin,sans-serif !important;
+    font-family: "Noto Serif",Noto Serif,Noto Serif,sans-serif !important;
 }
 
 .pnlRestrictedProducts_Message.cart-limit-exceeded .restrictedProuctsErrorWrapper {
@@ -5044,7 +5044,7 @@ li.hideSpecialty, div.hidePanel {
     border: 4px solid #ffc658;
     background-color: #fef9db;
     text-align: center;
-    font-family: "Cabin",Cabin,Cabin,sans-serif !important;
+    font-family: "Noto Serif",Noto Serif,Noto Serif,sans-serif !important;
     float: right;
     width: 170px;
     padding-top: 40px;
@@ -5104,7 +5104,7 @@ li.hideSpecialty, div.hidePanel {
         font-size: 23px;
         font-weight: bold;
         line-height: 50px;
-        font-family: "Cabin",​Cabin,​Cabin,​sans-serif;
+        font-family: "Noto Serif",​Noto Serif,​Noto Serif,​sans-serif;
     }
 
     .drop-shipto-graphic h2.title {
@@ -5386,7 +5386,7 @@ a.selected-locale {
 }
 
 .drop-countryOptions.select-options {
-    font-family: "Cabin",Cabin,Cabin,sans-serif;
+    font-family: "Noto Serif",Noto Serif,Noto Serif,sans-serif;
     font-size: 15px;
     font-weight: 400;
     color: #81878a;
@@ -5471,7 +5471,7 @@ a.selected-locale {
 .select-ship-opener .current-language {
     float: left;
     display: block;
-    font: 700 12px/24px "Cabin",Cabin,Cabin,sans-serif;
+    font: 700 12px/24px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
     text-transform: uppercase;
     color: #54585a;
     margin: 0 6px 0 0;
@@ -5645,7 +5645,7 @@ a.selected-locale {
         clear: both;
         color: #54585a !important;
         display: block;
-        font: 700 18px "Cabin",Cabin,Cabin,sans-serif;
+        font: 700 18px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
         margin: 38px 0 0;
         padding: 25px 0;
         text-align: center;
@@ -5722,7 +5722,7 @@ a.selected-locale {
     color: #54585a;
     background: #ffc658;
     box-shadow: 0 1px 0 0 #b68d3f;
-    font: 700 17px/25px "Cabin",Cabin,Cabin,sans-serif;
+    font: 700 17px/25px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
     margin: 0 auto 20px;
     padding: 10px 20px;
     vertical-align: middle;
@@ -5744,7 +5744,7 @@ a.selected-locale {
     cursor: pointer;
     background: #f2f2f3;
     color: #81878a;
-    font: 700 15px/46px "Cabin",Cabin,Cabin,sans-serif;
+    font: 700 15px/46px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
     text-transform: uppercase;
     border: 1px solid #d4d4d4 !important;
 }
@@ -5765,7 +5765,7 @@ a.selected-locale {
 
 .SelectedShippingRow .confirmSelection {
     display: block;
-    font: 500 18px/46px "Cabin",Cabin,Cabin,sans-serif;
+    font: 500 18px/46px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
     color: #3b853e;
     text-transform: uppercase;
     margin-right: 10px;
@@ -5821,14 +5821,14 @@ a.selected-locale {
 }
 
     .shipping-method-text-wrapper h2 {
-        font: 500 20px "Cabin",Cabin,Cabin,sans-serif;
+        font: 500 20px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
         color: #54585a;
         margin: 15px 0 0;
         border: 0;
     }
 
     .shipping-method-text-wrapper p {
-        font: 14px "Cabin",Cabin,Cabin,sans-serif;
+        font: 14px "Noto Serif",Noto Serif,Noto Serif,sans-serif;
         margin: 0;
         color: #54585a !important;
     }
@@ -5841,7 +5841,7 @@ a.selected-locale {
 }
 
     .shipping-method-price-wrapper p {
-        font-family: "Cabin",Cabin,Cabin,sans-serif;
+        font-family: "Noto Serif",Noto Serif,Noto Serif,sans-serif;
         font-weight: 600;
         font-size: 20px;
         color: #54585a !important;
@@ -5868,7 +5868,7 @@ a.selected-locale {
     margin-left: 0 !important;
     top: 26px;
     min-height: 38px;
-    font-family: "Cabin",Cabin,Cabin,sans-serif !important;
+    font-family: "Noto Serif",Noto Serif,Noto Serif,sans-serif !important;
     padding: 0 !important;
     bottom: inherit;
 }
@@ -6073,7 +6073,7 @@ a.selected-locale {
     }
 
 .hgData {
-    font-family: Cabin,Cabin,sans-serif;
+    font-family: Noto Serif,Noto Serif,sans-serif;
     font-size: 9pt;
     font-weight: normal;
     color: #666666;
@@ -6169,7 +6169,7 @@ a.selected-locale {
     color: #54585a;
     text-transform: uppercase;
     padding: 8px 5px;
-    font: 700 15px/20px "Cabin",sans-serif;
+    font: 700 15px/20px "Noto Serif",sans-serif;
     height: 30px;
     -webkit-border-radius: 5px;
     border-radius: 5px;

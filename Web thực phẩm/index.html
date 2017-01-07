@@ -4,8 +4,39 @@
     <script type="text/javascript" src="jscripts/jquery-1.8.3_and_plugins.js"></script>
     <script type="text/javascript" src="jscripts/jquery.cookie.js"></script>
 
-    <meta charset="utf-8" />
-    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    <script id="barTmpl" type="text/x-jquery-tmpl">
+        <div class="cn-bar">
+            <div class="cn-nav">
+                <a href="#" class="cn-nav-prev">
+                    <span>Previous</span>
+                    <div style="background-image:url(${prevSource});"></div>
+                </a>
+                <a href="#" class="cn-nav-next">
+                    <span>Next</span>
+                    <div style="background-image:url(${nextSource});"></div>
+                </a>
+            </div><!-- cn-nav -->
+            <div class="cn-nav-content">
+                <div class="cn-nav-content-prev">
+                    <!--<span>Previous image</span>-->
+                    <h3>${prevTitle}</h3>
+                </div>
+                <div class="cn-nav-content-current">
+                    <!--<span>Currently viewing</span>-->
+                    <h2>${currentTitle}</h2>
+                </div>
+                <div class="cn-nav-content-next">
+                    <!--<span>Next image</span>-->
+                    <h3>${nextTitle}</h3>
+                </div>
+            </div><!-- cn-nav-content -->
+        </div><!-- cn-bar -->
+    </script>
+    <script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
+    <script type="text/javascript" src="js/jquery.slideshow.js"></script>
+    
+   
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
     <link media="all" rel="stylesheet" href="css/all.css?v=10" />
     <link media="all" rel="stylesheet" href="css/omnica.css?v=10" />
     <link media="print" rel="stylesheet" type="text/css" href="css/print.css?v=10" />
@@ -28,12 +59,10 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script src="ItemSlider/js/modernizr.custom.63321.js"></script>
 
-  
+    <link rel="stylesheet" type="text/css" href="css/demoslider.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleslider.css" />
 
-   <link href="assets/styles/jslidernew.css" rel="stylesheet" type="text/css" />
-    <!--<script src="assets/js/jquery-1.9.0.min.js" type="text/javascript"></script>-->
-    <!--<script type="text/javascript" src="assets/js/banner-skitter/jquery.easing.1.3.js"></script>-->
-    <script src="assets/js/jquery.JSliderNews.js" type="text/javascript"></script>
+
     <script type="extole/widget">
         {
         "zone": "homepage_cta",
@@ -46,12 +75,10 @@
     <title>
         Thực phẩm chức năng
     </title>
-
 </head>
 <body class="lucky">
-
     <form name="aspnetForm" method="post" action="#" id="aspnetForm">
-        <div id="wrapper" class="home-page page" style="padding-top:239px;background-image:url(none);">
+        <div id="wrapper" class="home-page page" style="padding-top:190px;background-image:url(none);">
             <div class="wrapper-content">
                 <div class="wrapper-content-holder">
                     <!--Header-->
@@ -625,142 +652,27 @@
                     </header>
 
                     <div id="ctl00_ctl00_RootPageContent_PageContent_pnlContent">
-                        <div id="main-content">
-                            <div id="jslidernews" class="lof-slidecontent">
-                                <div class="preload">
-                                    <div>
+                        <div class="container">
+
+                            <div class="wrapper">
+                                <div id="cn-slideshow" class="cn-slideshow">
+                                    <div class="cn-images">
+                                        <img src="images/large/1.jpg" alt="image01" title="Cristiano Ronaldo: 'Tôi nhận thấy mình khỏe hơn khi sử dụng sản phẩm Herbalife'" data-thumb="images/thumbs/1.jpg" style="display:block;" />
+                                        <img src="images/large/2.jpg" alt="image02" title="Phạm Hương: 'Uống Herbalife mỗi ngày, đã giúp tôi trở thành hoa hậu.'" data-thumb="images/thumbs/2.jpg" />
+                                        <img src="images/large/3.jpg" alt="image03" title="Thúy Hạnh: 'Dùng Nutrilite mỗi ngày, đã giúp tôi trở thành người mẫu Việt Nam.'" data-thumb="images/thumbs/3.jpg" />
+                                        <img src="images/large/4.jpg" alt="image04" title="Đầu bếp Thanh Hòa: 'Dùng Amway mỗi ngày, đã giúp tôi trở thành vua đầu bếp Việt Nam.'" data-thumb="images/thumbs/4.jpg" />
                                     </div>
                                 </div>
-                                <div class="button-previous btn-control">
-                                    <span>Previous</span>
-                                </div>
 
-                                <div class="main-slider-content">
-
-                                    <ul class="sliders-wrap-inner">
-
-                                        <li>
-                                            <img src="res/projectcategory/thumbs/herbalife1.jpg" class="blur" />
-                                            <div class="slider-description">
-                                               
-                                                <div class="desciption">
-                                                    <p> <strong>"Tôi nhận thấy mình khỏe hơn khi sử dụng sản phẩm Herbalife. Nếu bạn không có chế độ dinh dưỡng tốt cho cơ thể, nó sẽ không thể hoạt động tốt theo ý muốn của bạn".</strong> </p>
-                                                </div>
-                                                <p class="more-read">
-                                                    <a href='#'>
-                                                        Cristiano Ronaldo
-                                                    </a>
-                                                </p>
-                                            </div>
-                                        </li>
-
-                                        <li>
-                                            <img src="res/projectcategory/thumbs/herbalife2.jpg" class="blur" alt="ngay-nang-13.jpg" />
-                                            <div class="slider-description">
-                                                <!--<h4>
-                                                    NGÀY NẮNG
-                                                </h4>-->
-                                                <div class="desciption">
-                                                    <p> <strong>"Uống Herbalife mỗi ngày, đã giúp tôi trở thành hoa hậu".</strong> </p>
-                                                </div>
-                                                <p class="more-read">
-                                                    <a href='#'>
-                                                        Hoa Hậu Phạm Hương
-                                                    </a>
-                                                </p>
-                                            </div>
-                                        </li>
-
-                                        <li>
-                                            <img src="res/projectcategory/thumbs/Amway.jpg" class="blur" alt="mac-dep-moi-ngay-11.jpg" />
-                                            <div class="slider-description">
-                                                <div class="desciption">
-                                                    <p> <strong>"Dùng Amway mỗi ngày, đã giúp tôi trở thành vua đầu bếp Việt Nam".</strong> </p>
-                                                </div>
-                                                <p class="more-read">
-                                                    <a href='#'>
-                                                        Đầu Bếp Thanh Hòa
-                                                    </a>
-                                                </p>
-                                            </div>
-                                        </li>
-
-                                        <li>
-                                            <img src="res/projectcategory/thumbs/thuyhanh.jpg" class="blur" />
-                                            <div class="slider-description">
-                                                
-                                                <div class="desciption">
-                                                    <p> <strong>"Dùng Nutrilite mỗi ngày, đã giúp tôi trở thành người mẫu Việt Nam".</strong> </p>
-                                                </div>
-                                                <p class="more-read">
-                                                    <a href='#'>
-                                                        Người Mẫu Thúy Hạnh
-                                                    </a>
-                                                </p>
-                                            </div>
-                                        </li>
-                                    </ul>
-
-
-
-                                </div>
-                                <!-- END MAIN CONTENT -->
-                                <!-- NAVIGATOR -->
-                                <div class="navigator-content">
-                                    <div class="navigator-wrapper">
-                                        <ul class="navigator-wrap-inner">
-                                            <li>
-                                                <div class="slider-small">
-                                                    <img src="res/projectcategory/ronaldo.jpg" id="ctl00_ContentPlaceHolder1_ListView2_ctrl0_Img3" />
-                                                    <h3>
-                                                        RONALDO
-                                                    </h3>
-                                                </div>
-                                            </li>
-
-                                            <li>
-                                                <div class="slider-small">
-                                                    <img src="res/projectcategory/phamhuong.jpg" id="ctl00_ContentPlaceHolder1_ListView2_ctrl1_Img3" alt="ngay-nang-13.jpg" />
-                                                    <h3>
-                                                        HOA HẬU PHẠM HƯƠNG
-                                                    </h3>
-                                                </div>
-                                            </li>
-
-                                            <li>
-                                                <div class="slider-small">
-                                                    <img src="res/projectcategory/thanhhoa.jpg" id="ctl00_ContentPlaceHolder1_ListView2_ctrl2_Img3" />
-                                                    <h3>
-                                                        ĐẦU BẾP THANH HÒA
-                                                    </h3>
-                                                </div>
-                                            </li>
-
-                                            <li>
-                                                <div class="slider-small">
-                                                    <img src="res/projectcategory/thuyhanh.jpg" id="ctl00_ContentPlaceHolder1_ListView2_ctrl3_Img3" />
-                                                    <h3>
-                                                        NGƯỜI MẪU THÚY HẠNH
-                                                    </h3>
-                                                </div>
-                                            </li>
-                                        </ul>
-
-
-                                    </div>
-                                </div>
-                                <!--ND OF NAVIGATOR-->
-                                <div class="button-next btn-control">
-                                    <span>Next</span>
-                                </div>
-                                <!-- BUTTON PLAY-STOP -->
-                                <div class="button-control">
-                                    <span></span>
-                                </div>
-                                <!-- END OF BUTTON PLAY-STOP -->
                             </div>
-
                         </div>
+                        <script type="text/javascript">
+    $(function () {
+        $('#cn-slideshow').slideshow();
+    });
+                        </script>
+                            
+                      
                         <div id="main">
                             <div id="content">
                             </div>
@@ -2076,8 +1988,5 @@
             jnxtac('header .search-form input[type="text"]').autocomplete({ cid: cid });
         })();
     </script>
-
-
-
 </body>
 </html>

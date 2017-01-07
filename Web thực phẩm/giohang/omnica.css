@@ -4518,6 +4518,7 @@ del.usualPrice {
 .footer-content .random-block {
     border-right: 4px solid #43B02A;
     width: 640px;
+    padding-top:12px;
 }
 
 .footer-content .social-block a {

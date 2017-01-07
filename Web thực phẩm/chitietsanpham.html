@@ -55,22 +55,96 @@
 
     <link rel="stylesheet" type="text/css" href="./chitietsanpham/visitor.css">
     <link rel="stylesheet" type="text/css" media="all" href="./chitietsanpham/reset.css">
+
+    <style>
+        #scrolltop {
+            display: none;
+        }
+
+        #rocketmeluncur {
+            position: fixed;
+            bottom: 50px;
+            z-index: 7;
+            display: none;
+            visibility: hidden;
+            width: 26px;
+            height: 48px;
+            right: 25px;
+            background: url(https://1.bp.blogspot.com/-UR9I7YEuEUY/VXIJn8MrBPI/AAAAAAAAKRE/qZObHBd5zIo/s1600/rocket.png) 50% 0 no-repeat;
+            opacity: 0;
+            -webkit-transition: visibility .6s cubic-bezier(.6,.04,.98,.335),opacity .6s cubic-bezier(.6,.04,.98,.335),-webkit-transform .6s cubic-bezier(.6,.04,.98,.335);
+            -moz-transition: visibility .6s cubic-bezier(.6,.04,.98,.335),opacity .6s cubic-bezier(.6,.04,.98,.335),-moz-transform .6s cubic-bezier(.6,.04,.98,.335);
+            transition: visibility .6s cubic-bezier(.6,.04,.98,.335),opacity .6s cubic-bezier(.6,.04,.98,.335),transform .6s cubic-bezier(.6,.04,.98,.335);
+        }
+
+            #rocketmeluncur i {
+                display: block;
+                margin-top: 48px;
+                height: 14px;
+                background: url(https://1.bp.blogspot.com/-UR9I7YEuEUY/VXIJn8MrBPI/AAAAAAAAKRE/qZObHBd5zIo/s1600/rocket.png) 50% -48px no-repeat;
+                opacity: .5;
+                -webkit-transition: -webkit-transform .2s;
+                -moz-transition: -moz-transform .2s;
+                transition: transform .2s;
+                -webkit-transform-origin: 50% 0;
+                -moz-transform-origin: 50% 0;
+                transform-origin: 50% 0;
+            }
+
+            #rocketmeluncur:hover {
+                background-position: 50% -62px;
+            }
+
+                #rocketmeluncur:hover i {
+                    background-position: 50% 100%;
+                    -webkit-animation: flaming .7s infinite;
+                    -moz-animation: flaming .7s infinite;
+                    animation: flaming .7s infinite;
+                }
+
+            #rocketmeluncur.showrocket {
+                visibility: visible;
+                opacity: 1;
+            }
+
+            #rocketmeluncur.launchrocket {
+                background-position: 50% -62px;
+                opacity: 0;
+                -webkit-transform: translateY(-800px);
+                -moz-transform: translateY(-800px);
+                -ms-transform: translateY(-800px);
+                transform: translateY(-800px);
+                pointer-events: none;
+            }
+
+                #rocketmeluncur.launchrocket i {
+                    background-position: 50% 100%;
+                    -webkit-transform: scale(1.4,3.2);
+                    -moz-transform: scale(1.4,3.2);
+                    transform: scale(1.4,3.2);
+                }
+    </style>
+
+    <link rel="stylesheet" href="css/style1.css" />
+    <script src="imagess/mootools-1.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="imagess/image-hover.css" type="text/css">
+
 </head>
 <body class="lucky" style="position: relative; min-height: 100%; top: 0px;">
     <form name="aspnetForm" method="post" action="#" id="aspnetForm">
         <a href="#content" tabindex="1" class="skip" accesskey="S">Skip to Content</a>
-        <div id="wrapper" class="page" style="padding-top: 210px">
+        <div id="wrapper" class="page" style="padding-top: 215px">
             <div class="wrapper-content">
                 <div class="wrapper-content-holder">
                     <!--Header-->
-                    <header id="header" class="noPrintFriendly">
+                    <header id="header" class="noPrintFriendly" style="margin-top: 0px;">
                         <!--hàng 1-->
                         <div class="promo-line noPrintFriendly">
                             <div class="holder">
                                 <div align="center" id="topiccontent" style="100%; color: white;">
                                     <div id="swbanner3">
                                         <a href="#">
-                                            <img src="images/SeaweedGWP_Sitewide.png" title="Seaweed Bath GWP" width="975" height="24" border="0">
+                                            <img src="images/SeaweedGWP_Sitewide.png" width="975" height="24" border="0">
                                         </a>
                                     </div>
                                 </div>
@@ -111,8 +185,9 @@
                         <div class="header-holder noPrintFriendly">
                             <div class="header-frame">
                                 <div class="header-block">
+
                                     <strong class="logo">
-                                        <a href="#" id="ctl00_ctl00_aHome">
+                                        <a href="danhsachsanpham.html" id="ctl00_ctl00_aHome">
                                             <img class="show-larger" src="images/logo.png" height="116" width="234" alt="lucky vitamin">
                                             <img class="show-smaller" src="images/logo-smaller.png" height="75" width="202" alt="lucky vitamin">
                                         </a>
@@ -125,11 +200,10 @@
                                                 <div class="drop">
                                                     <div class="holder">
                                                         <ul class="list">
-                                                            <li><a href="#">Về chúng tôi</a></li>
+                                                            <li><a href="gioithieuchungtoi.html">Về chúng tôi</a></li>
                                                             <li><a href="#">Cam kết</a></li>
-                                                            <li><a href="#">Liên hệ</a></li>
+                                                            <li><a href="lienhe.html">Liên hệ</a></li>
                                                             <li><a href="#">Dịch vụ khách hàng</a></li>
-                                                            <li><a href="#">Hướng dẫn mua hàng</a></li>
                                                             <li><a href="#">Cẩm nang sức khỏe</a></li>
                                                         </ul>
                                                     </div>
@@ -141,11 +215,10 @@
                                                 <div class="drop">
                                                     <div class="holder">
                                                         <ul class="list">
-                                                            <li><a href="#">Nutrilite</a></li>
-                                                            <li><a href="#">Herbalife</a></li>
-                                                            <li><a href="#">Vision</a></li>
-                                                            <li><a href="#">Good Health</a></li>
-                                                            <li><a href="#">Amaway</a></li>
+                                                            <li><a href="danhsachsanpham.html">Nutrilite</a></li>
+                                                            <li><a href="danhsachsanpham.html">Herbalife</a></li>
+                                                            <li><a href="danhsachsanpham.html">Vision</a></li>
+                                                            <li><a href="danhsachsanpham.html">Good Health</a></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -159,7 +232,7 @@
                                                             <li><a href="#">Tăng cơ</a></li>
                                                             <li><a href="#">Giảm cân</a></li>
                                                             <li><a href="#">Trắng da</a></li>
-                                                            <li><a href="#">Collagen</a></li>
+                                                            <li><a href="#">Trị nám</a></li>
                                                             <li><a href="#">Tim mạch</a></li>
                                                             <li><a href="#">Gan</a></li>
                                                             <li><a href="#">Hô hấp</a></li>
@@ -173,6 +246,7 @@
                                     </nav>
 
                                     <div class="header-block-holder">
+
                                         <div id="ctl00_ctl00_pnlSearchForm" class="search-form">
                                             <fieldset>
                                                 <span class="submit-holder">
@@ -183,7 +257,6 @@
                                                 </div>
                                             </fieldset>
                                         </div>
-
                                         <div class="free-shipping-block">
                                             <div id="divNoFreeShipping">
                                                 <div>
@@ -193,21 +266,57 @@
                                         </div>
 
                                         <div id="miniCartBlock" class="cart-block litMiniCart">
+
                                             <div class="cartblock-holder">
-                                                <a href="shoppingcart.aspx" class="icon-cart"><span class="counter lblMiniCartItemCount">0</span></a><div class="drop-cart-wrap-main">
-                                                    <div id="EmptyMiniCart" class="drop">
+                                                <a href="#" class="icon-cart"><span class="counter lblMiniCartItemCount">1</span></a><div class="drop-cart-wrap-main">
+                                                    <div id="ActiveMiniCart" class="drop">
                                                         <div class="holder">
-                                                            <div class="start-message">
-                                                                <img src="images/img-card01.png" width="338" height="203" alt="image description">
-                                                                <span class="head">Bạn chưa có sản phẩm nào trong giỏ hàng!</span>
-                                                                <p>Hãy bắt đầu mua sắm tại đây để trở thành người mua sắm thông minh nhất!</p>
+                                                            <span class="head">
+                                                                <mark><label class="lblMiniCartItemCount">1</label><label class="lblMiniCartItems"> sản phẩm</label></mark> trong giỏ hàng
+                                                            </span>
+                                                            <!--<span class="title">Most Recently Added:</span>-->
+                                                            <div class="item">
+                                                                <div class="img-box cartitem-image"><a href="#"><img src="./danhsachsanpham/sanpham/2.jpg" alt=""></a></div>
+                                                                <div class="text">
+                                                                    <span class="tag manufacturerName">Herbalife</span><h1 class="productTitle"><a href="#">Beauty Power Drink – 300g</a></h1>
+                                                                    <div class="update-form">
+                                                                        <label for="txtQuantity" class=" label-active">Số lượng : </label>
+                                                                        <div class="input-holder parent-active">
+                                                                            <input id="hfShopCartRecID" type="hidden" value="39128245">
+
+                                                                            <span class="input-placeholder-text" style="color: rgb(84, 88, 90); position: absolute; display: none;"></span>
+                                                                            <input id="txtQuantity" name="txtQuantity" type="text" value="2" class=" text-active">
+                                                                            <img src="./danhsachsanpham/ajax-loader.gif" id="miniCart-AjaxLoader" style="margin-left:-18px; margin-top:3px;">
+                                                                        </div>
+                                                                        <span style="cursor:pointer; font-size:12px;" class="update updateQty_MiniCart buttonView">Cập nhật</span>
+                                                                        <span class="removeItem_MiniCart" style="cursor:pointer; clear:both; position: absolute; margin-left: -95px; margin-top: 49px; font-size: 15px;">Xóa</span>
+                                                                        <input class="hidden" type="submit" value="Submit"><span class="price">500,000đ</span>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                            <div class="subtotal-row">
+                                                                <a href="#" class="btn-view add-loading"><i class="ico"></i><span class="text">Xem giỏ hàng</span></a><span class="head">Tổng tiền</span>
+                                                                <span class="count lblMiniCartSubtotal">750,000 đ</span>
+                                                            </div>
+                                                            <div class="info-row">
+                                                                <p class="pyousaved">Bạn tiết kiệm được: <em class="amount">750,000 đ</em></p>
+
+                                                                <div id="divMiniCart_FreeShippingEarned" class="ribbon earned">
+                                                                    <div class="holder">
+                                                                        <p>FREE Shipping! </p>
+                                                                    </div>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
+
                                                 </div>
                                             </div>
+
                                             <a href="#" id="topCheckoutBtn" class="cart-btn"><span class="holder">Thanh toán </span></a>
                                         </div>
+
                                     </div>
                                 </div>
 
@@ -220,76 +329,66 @@
                                                         <div class="head-main">
                                                             <h1>LUCKY VITAMIN</h1>
                                                         </div>
-                                                        <div class="drop-row-holder">
-                                                            <div class="col">
-                                                                <div class="divider">
-                                                                    <a href="#">
-                                                                        <div class="image-holder">
-                                                                            <img src="images/Category/top_depts/2975.jpg_-466878619.jpg" height="85" width="124">
+                                                        <div class="brands-block">
+                                                            <ul class="brands-list">
+                                                                <li>
+                                                                    <a href="gioithieuchungtoi.html">
+                                                                        <div class="img" id="img-1">
+                                                                            <img src="images/Category/top_depts/2975.jpg_-466878619.jpg" width="220" height="150" style="margin-left:20px">
                                                                         </div>
                                                                     </a>
-                                                                </div>
-                                                                <strong class="title">
-                                                                    <a href="#">Về chúng tôi</a>
-                                                                </strong>
-                                                            </div>
-                                                            <div class="col">
-                                                                <div class="divider">
-                                                                    <a href="#">
-                                                                        <div class="image-holder">
-                                                                            <img src="images/Category/top_depts/1X.jpg_-466878619.jpg" height="85" width="124">
-                                                                        </div>
-                                                                    </a>
-                                                                </div><strong class="title"><a href="#">Cam kết & giấy xác nhận</a></strong>
-                                                            </div>
-                                                            <div class="col">
-                                                                <div class="divider">
-                                                                    <a href="#">
-                                                                        <div class="image-holder">
-                                                                            <img src="images/Category/top_depts/1J.jpg_-466878619.jpg" height="85" width="124">
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                                <strong class="title">
-                                                                    <a href="#">Kiến thức</a>
-                                                                </strong>
-                                                            </div>
-                                                            <div class="col">
-                                                                <div class="divider">
-                                                                    <a href="#">
-                                                                        <div class="image-holder">
-                                                                            <img src="images/gioithieu/lienhe.png" height="85" width="124">
-                                                                        </div>
-                                                                    </a>
-                                                                </div><strong class="title"><a href="#">Liên hệ</a></strong>
-                                                            </div>
-                                                            <div class="col">
-                                                                <div class="divider">
-                                                                    <a href="#">
-                                                                        <div class="image-holder">
-                                                                            <img alt="image description" src="images/Category/top_depts/1G.jpg_-466878619.jpg" height="85" width="124">
-                                                                        </div>
-                                                                    </a>
-                                                                </div><strong class="title"><a href="#">Dịch vụ khách hàng</a></strong>
-                                                            </div>
-                                                            <div class="col">
-                                                                <div class="divider">
-                                                                    <a href="#">
-                                                                        <div class="image-holder">
-                                                                            <img src="images/Category/top_depts/1Q.jpg_-466878619.jpg" height="85" width="124">
-                                                                        </div>
-                                                                    </a>
-                                                                </div><strong class="title"><a href="#">Hướng dẫn mua hàng</a></strong>
-                                                            </div>
-                                                        </div>
+                                                                    <h2>
+                                                                        <a href="gioithieuchungtoi.html" style="margin-left:0px">Chúng tôi</a>
+                                                                    </h2>
+                                                                </li>
 
+                                                                <li>
+                                                                    <a>
+                                                                        <div class="img" id="img-2">
+                                                                            <img src="images/Category/top_depts/1X.jpg_-466878619.jpg" width="220" height="150">
+                                                                        </div>
+                                                                    </a>
+                                                                    <h2><a href="#" style="margin-left:-27px">Cam kết</a></h2>
+                                                                </li>
+
+                                                                <li>
+                                                                    <a href="lienhe.html">
+                                                                        <div class="img" id="img-2">
+
+                                                                            <img src="images/gioithieu/lienhe.png" width="220" height="150">
+                                                                        </div>
+                                                                    </a>
+                                                                    <h2><a href="lienhe.html" style=" margin-left:-27px">Liên hệ</a></h2>
+                                                                </li>
+
+                                                                <li>
+                                                                    <a>
+                                                                        <div class="img" id="img-2">
+
+                                                                            <img src="images/gioithieu/services.png" width="220" height="150">
+                                                                        </div>
+                                                                    </a>
+                                                                    <h2><a href="#" style="margin-left:-27px">Dịch vụ</a></h2>
+                                                                </li>
+
+                                                                <li>
+                                                                    <a>
+                                                                        <div class="img" id="img-2">
+
+                                                                            <img src="images/gioithieu/camnang.png" width="220" height="150">
+                                                                        </div>
+                                                                    </a>
+                                                                    <h2><a href="#" style="margin-left:-27px">Cẩm nang sức khỏe</a></h2>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
-                                                </div>
                                             </li>
                                             <li class="big-drop">
-                                                <a href="#"><span>Thương Hiệu</span></a><div class="drop">
-                                                    <div class="holder holder-concern">
-                                                        <div class="drop-holder drop-brand-main">
+                                                <a href="#"><span>Thương Hiệu</span></a>
+                                                <div class="drop">
+                                                    <div class="holder">
+                                                        <div class="drop-holder">
                                                             <div class="slide">
                                                                 <div class="head-main">
                                                                     <h1>THƯƠNG HIỆU NỔI TIẾNG</h1>
@@ -297,30 +396,45 @@
                                                                 <div class="brands-block">
                                                                     <ul class="brands-list">
                                                                         <li>
-                                                                            <a href="#" class="logo-box">
-                                                                                <img src="images/brand/nutrilite1.jpg">
-                                                                            </a><h2><a href="#">Nutrilite</a></h2>
+                                                                            <a>
+                                                                                <div class="img" id="img-1">
+                                                                                    <img src="images/brand/nutrilite1.jpg" width="220" height="150">
+                                                                                </div>
+                                                                            </a>
+                                                                            <h2>
+                                                                                <a href="#" style="margin-left:-27px">Nutrilite</a>
+                                                                            </h2>
                                                                         </li>
+
                                                                         <li>
-                                                                            <a href="#" class="logo-box">
-                                                                                <img alt="Alba Botanica" src="images/brand/herbalife.jpg">
-                                                                            </a><h2><a href="#">Herbalife</a></h2>
+                                                                            <a href="danhsachsanpham.html">
+                                                                                <div class="img" id="img-2">
+                                                                                    <img src="images/brand/herbalife.jpg" width="220" height="150">
+                                                                                </div>
+                                                                            </a>
+                                                                            <h2><a href="danhsachsanpham.html" style="margin-left:-27px">Herbalife</a></h2>
                                                                         </li>
+
                                                                         <li>
-                                                                            <a href="#" class="logo-box">
-                                                                                <img alt="Garden of Life" src="images/brand/vision.jpg">
-                                                                            </a><h2><a href="/m-153-garden-of-life">Vision</a></h2>
+                                                                            <a>
+                                                                                <div class="img" id="img-2">
+
+                                                                                    <img src="images/brand/vision.jpg" width="220" height="150">
+                                                                                </div>
+                                                                            </a>
+                                                                            <h2><a href="#" style="margin-left:-27px">Vision</a></h2>
                                                                         </li>
+
                                                                         <li>
-                                                                            <a href="#" class="logo-box">
-                                                                                <img alt="Mrs. Meyer's" src="images/brand/goodhealth1.jpg">
-                                                                            </a><h2><a href="#">Good Health</a></h2>
+                                                                            <a>
+                                                                                <div class="img" id="img-2">
+
+                                                                                    <img src="images/brand/goodhealth1.jpg" width="220" height="150">
+                                                                                </div>
+                                                                            </a>
+                                                                            <h2><a href="#" style="margin-left:-27px">Good Health</a></h2>
                                                                         </li>
-                                                                        <li>
-                                                                            <a href="#" class="logo-box">
-                                                                                <img alt="Jarrow Formulas" src="images/brand/amway.jpg">
-                                                                            </a><h2><a href="#">Amway</a></h2>
-                                                                        </li>
+
 
                                                                     </ul>
                                                                 </div>
@@ -340,40 +454,70 @@
                                                             <div class="thumbnail-block">
                                                                 <ul class="thumbnail-list">
                                                                     <li>
-                                                                        <a href="#">
-                                                                            <span class="image-holder">
-                                                                                <img src="images/benh/timmach.jpg">
-                                                                            </span><span class="text">Tim mạch</span>
+                                                                        <a>
+                                                                            <div class="imgholder">
+                                                                                <div class="outer1 circle"></div>
+                                                                                <div class="outer2 circle"></div>
+                                                                                <figure>
+                                                                                    <img src="images/benh/timmach.jpg" />
+                                                                                    <figcaption class="caption">Tim mạch</figcaption>
+                                                                                </figure>
+                                                                            </div>
                                                                         </a>
                                                                     </li>
+
                                                                     <li>
-                                                                        <a href="#">
-                                                                            <span class="image-holder">
-                                                                                <img alt="" src="images/benh/gan3.jpg">
-                                                                            </span><span class="text">Gan</span>
+                                                                        <a>
+                                                                            <div class="imgholder">
+                                                                                <div class="outer1 circle"></div>
+                                                                                <div class="outer2 circle"></div>
+                                                                                <figure>
+                                                                                    <img src="images/benh/gan3.jpg" />
+                                                                                    <figcaption class="caption">Gan</figcaption>
+                                                                                </figure>
+                                                                            </div>
                                                                         </a>
                                                                     </li>
+
                                                                     <li>
-                                                                        <a href="#">
-                                                                            <span class="image-holder">
-                                                                                <img alt="" src="images/benh/phoi.png">
-                                                                            </span><span class="text">Hô hấp</span>
+                                                                        <a>
+                                                                            <div class="imgholder">
+                                                                                <div class="outer1 circle"></div>
+                                                                                <div class="outer2 circle"></div>
+                                                                                <figure>
+                                                                                    <img src="images/benh/phoi.png" />
+                                                                                    <figcaption class="caption">Hô hấp</figcaption>
+                                                                                </figure>
+                                                                            </div>
                                                                         </a>
                                                                     </li>
+
                                                                     <li>
-                                                                        <a href="#">
-                                                                            <span class="image-holder">
-                                                                                <img alt="" src="images/benh/tieuhoa.jpg">
-                                                                            </span><span class="text">Tiêu hoá</span>
+                                                                        <a>
+                                                                            <div class="imgholder">
+                                                                                <div class="outer1 circle"></div>
+                                                                                <div class="outer2 circle"></div>
+                                                                                <figure>
+                                                                                    <img src="images/benh/tieuhoa.jpg" />
+                                                                                    <figcaption class="caption">Tiêu hóa</figcaption>
+                                                                                </figure>
+                                                                            </div>
                                                                         </a>
                                                                     </li>
+
                                                                     <li>
-                                                                        <a href="#">
-                                                                            <span class="image-holder">
-                                                                                <img alt="" src="images/benh/thankinh.jpg">
-                                                                            </span><span class="text">Hệ thần kinh</span>
+                                                                        <a>
+                                                                            <div class="imgholder">
+                                                                                <div class="outer1 circle"></div>
+                                                                                <div class="outer2 circle"></div>
+                                                                                <figure>
+                                                                                    <img src="images/benh/thankinh.jpg" />
+                                                                                    <figcaption class="caption">Hệ thần kinh</figcaption>
+                                                                                </figure>
+                                                                            </div>
                                                                         </a>
                                                                     </li>
+
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -392,50 +536,78 @@
                                                             <div class="thumbnail-block">
                                                                 <ul class="thumbnail-list">
                                                                     <li>
-                                                                        <a href="#">
-                                                                            <span class="image-holder">
-
-                                                                                <img alt="" src="images/lamdep/laohoa.jpg">
-
-                                                                            </span><span class="text">Chống lão hoá</span>
+                                                                        <a>
+                                                                            <div class="imgholder">
+                                                                                <div class="outer1 circle"></div>
+                                                                                <div class="outer2 circle"></div>
+                                                                                <figure>
+                                                                                    <img src="images/lamdep/laohoa.jpg" />
+                                                                                    <figcaption class="caption">Chống lão hóa</figcaption>
+                                                                                </figure>
+                                                                            </div>
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="#">
-                                                                            <span class="image-holder">
-
-                                                                                <img alt="" src="images/lamdep/tangco.jpg">
-
-                                                                            </span><span class="text">Tăng cơ</span>
+                                                                        <a>
+                                                                            <div class="imgholder">
+                                                                                <div class="outer1 circle"></div>
+                                                                                <div class="outer2 circle"></div>
+                                                                                <figure>
+                                                                                    <img src="images/lamdep/trinam.jpg" />
+                                                                                    <figcaption class="caption">Trị nám da</figcaption>
+                                                                                </figure>
+                                                                            </div>
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="#">
-                                                                            <span class="image-holder">
-
-                                                                                <img alt="" src="images/lamdep/giamcan.jpg">
-
-                                                                            </span><span class="text">Giảm cân</span>
+                                                                        <a>
+                                                                            <div class="imgholder">
+                                                                                <div class="outer1 circle"></div>
+                                                                                <div class="outer2 circle"></div>
+                                                                                <figure>
+                                                                                    <img src="images/lamdep/tangco.jpg" />
+                                                                                    <figcaption class="caption">Tăng cơ</figcaption>
+                                                                                </figure>
+                                                                            </div>
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="#">
-                                                                            <span class="image-holder">
-
-                                                                                <img alt="" src="images/lamdep/trangda.jpg">
-
-                                                                            </span><span class="text">Trắng da</span>
+                                                                        <a>
+                                                                            <div class="imgholder">
+                                                                                <div class="outer1 circle"></div>
+                                                                                <div class="outer2 circle"></div>
+                                                                                <figure>
+                                                                                    <img src="images/lamdep/giamcan.jpg" />
+                                                                                    <figcaption class="caption">Giảm cân</figcaption>
+                                                                                </figure>
+                                                                            </div>
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="#">
-                                                                            <span class="image-holder">
-
-                                                                                <img alt="" src="images/lamdep/colagen.jpg">
-
-                                                                            </span><span class="text">Collagen</span>
+                                                                        <a>
+                                                                            <div class="imgholder">
+                                                                                <div class="outer1 circle"></div>
+                                                                                <div class="outer2 circle"></div>
+                                                                                <figure>
+                                                                                    <img src="images/lamdep/trangda.jpg" />
+                                                                                    <figcaption class="caption">Trắng da</figcaption>
+                                                                                </figure>
+                                                                            </div>
                                                                         </a>
                                                                     </li>
+                                                                    <li>
+                                                                        <a>
+                                                                            <div class="imgholder">
+                                                                                <div class="outer1 circle"></div>
+                                                                                <div class="outer2 circle"></div>
+                                                                                <figure>
+                                                                                    <img src="images/lamdep/colagen.jpg" />
+                                                                                    <figcaption class="caption">Dưỡng ẩm da</figcaption>
+                                                                                </figure>
+                                                                            </div>
+                                                                        </a>
+                                                                    </li>
+
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -454,47 +626,74 @@
                                                             <div class="thumbnail-block">
                                                                 <ul class="thumbnail-list">
                                                                     <li>
-                                                                        <a href="#">
-                                                                            <span class="image-holder">
-                                                                                <img alt="" src="images/tpquy/dongtrunghathao2.jpg">
-                                                                            </span><span class="text">Đông trùng hạ thảo</span>
+                                                                        <a>
+                                                                            <div class="imgholder">
+                                                                                <div class="outer1 circle"></div>
+                                                                                <div class="outer2 circle"></div>
+                                                                                <figure>
+                                                                                    <img src="images/tpquy/dongtrunghathao2.jpg" />
+                                                                                    <figcaption class="caption">Đông trùng</figcaption>
+                                                                                </figure>
+                                                                            </div>
                                                                         </a>
                                                                     </li>
+
                                                                     <li>
-                                                                        <a href="#">
-                                                                            <span class="image-holder">
-                                                                                <img alt="" src="images/tpquy/nhansam1.jpg">
-                                                                            </span><span class="text">Nhân sâm</span>
+                                                                        <a>
+                                                                            <div class="imgholder">
+                                                                                <div class="outer1 circle"></div>
+                                                                                <div class="outer2 circle"></div>
+                                                                                <figure>
+                                                                                    <img src="images/tpquy/nhansam1.jpg" />
+                                                                                    <figcaption class="caption">Nhân sâm</figcaption>
+                                                                                </figure>
+                                                                            </div>
                                                                         </a>
                                                                     </li>
+
                                                                     <li>
-                                                                        <a href="#">
-                                                                            <span class="image-holder">
-                                                                                <img alt="" src="images/tpquy/linhchi1.jpg">
-                                                                            </span><span class="text">Linh chi</span>
+                                                                        <a>
+                                                                            <div class="imgholder">
+                                                                                <div class="outer1 circle"></div>
+                                                                                <div class="outer2 circle"></div>
+                                                                                <figure>
+                                                                                    <img src="images/tpquy/linhchi1.jpg" />
+                                                                                    <figcaption class="caption">Linh chi</figcaption>
+                                                                                </figure>
+                                                                            </div>
                                                                         </a>
                                                                     </li>
+
                                                                     <li>
-                                                                        <a href="#">
-                                                                            <span class="image-holder">
-                                                                                <img alt="" src="images/tpquy/yensao.jpg">
-                                                                            </span><span class="text">Yến sào</span>
+                                                                        <a>
+                                                                            <div class="imgholder">
+                                                                                <div class="outer1 circle"></div>
+                                                                                <div class="outer2 circle"></div>
+                                                                                <figure>
+                                                                                    <img src="images/tpquy/yensao.jpg" />
+                                                                                    <figcaption class="caption">Yến sào</figcaption>
+                                                                                </figure>
+                                                                            </div>
                                                                         </a>
                                                                     </li>
+
                                                                     <li>
-                                                                        <a href="#">
-                                                                            <span class="image-holder">
-                                                                                <img alt="" src="images/tpquy/khac.jpg">
-                                                                            </span><span class="text">Thảo dược khác</span>
+                                                                        <a>
+                                                                            <div class="imgholder">
+                                                                                <div class="outer1 circle"></div>
+                                                                                <div class="outer2 circle"></div>
+                                                                                <figure>
+                                                                                    <img src="images/tpquy/khac.jpg" />
+                                                                                    <figcaption class="caption">Thảo dược khác</figcaption>
+                                                                                </figure>
+                                                                            </div>
                                                                         </a>
                                                                     </li>
+
+
                                                                 </ul>
                                                             </div>
-                                                            <!--<div class="btn-holder">
-                                                                <a href="#" class="btn-all">
-                                                                    View All Ingredients
-                                                                </a>
-                                                            </div>-->
+
                                                         </div>
                                                     </div>
                                                 </div>
@@ -578,7 +777,6 @@
                         </div>
                     </header>
 
-
                     <div id="main">
                         <!--Thanh điều hướng-->
                         <nav class="breadcrumbs">
@@ -660,6 +858,9 @@
                                                         <span itemprop="name">Nhà sản xuất: HERBALIFE</span>
                                                     </h1>
 
+                                                    <h1>
+                                                        <span itemprop="name">Công dụng: Chống lão hóa cho da</span>
+                                                    </h1>
 
                                                     <div class="holder">
                                                         <div class="price-area">
@@ -2255,7 +2456,7 @@
                                                 <h1 class="entry-title"><a href="#">5 lý do bạn phải bổ sung vitamin</a></h1>
                                                 <span class="meta published">04/12/2016</span>
                                             </div>
-                                            <a href="#" class="link-more" target="_blank">Đọc thêm bài viết</a>
+                                           
                                         </div>
                                     </div>
 
@@ -2408,10 +2609,17 @@
                     </div>
                 </div>
             </div>
-            <!-- end bottom of the page -->
-            <!-- allow a user to jump to the header of the page -->
-            <a href="#wrapper" class="skip bottom">Back to top</a>
+          
         </div>
+        <a href="javascript:void(0);" id="rocketmeluncur" class="showrocket"><i></i></a>
+
+        <script type='text/javascript'>
+            //<![CDATA[
+            jQuery(window).scroll(function () { jQuery(window).scrollTop() < 50 ? jQuery("#rocketmeluncur").slideUp(500) : jQuery("#rocketmeluncur").slideDown(500); var e = jQuery("#ft")[0] ? jQuery("#ft")[0] : jQuery(document.body)[0], t = $("rocketmeluncur"), n = (parseInt(document.documentElement.clientHeight), parseInt(document.body.getBoundingClientRect().top), parseInt(e.clientWidth)), r = t.clientWidth; if (1e3 > n) { var l = parseInt(fetchOffset(e).left); l = r > l ? 2 * l - r : l, t.style.left = n + l + "px" } else t.style.left = "auto", t.style.right = "10px" }), jQuery("#rocketmeluncur").click(function () { jQuery("html, body").animate({ scrollTop: "0px", display: "none" }, { duration: 600, easing: "linear" }); var e = this; this.className += " launchrocket", setTimeout(function () { e.className = "showrocket" }, 800) });
+            //]]>
+        </script>
+
+
         <script type="text/javascript" xmlns:omnica="urn:omnica">
             var cid = 'ed441d95dfb1990ae79c4ba957447dcd';
             (function () {
@@ -2449,5 +2657,7 @@
         <script type='text/javascript' src='wp-content/plugins/facebook-messenger/frontend/js/jquery.event.move.js'></script>
         <script type='text/javascript' src='wp-content/plugins/facebook-messenger/frontend/js/rebound.min.js'></script>
         <script type='text/javascript' src='wp-content/plugins/facebook-messenger/frontend/js/index.js'></script>
+
+       
 </body>
 </html>

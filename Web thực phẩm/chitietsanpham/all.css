@@ -1680,7 +1680,7 @@ div.row-group div.form-row div.holder div h3 {
 .cart-block .drop .head {
     display: block;
     text-transform: capitalize;
-    font: 400 28px/36px "Noto Serif",serif;
+    font: 400 25px/36px "Noto Serif",serif;
     color: #81878a;
     margin: 0 0 1px;
 }
@@ -1753,6 +1753,7 @@ div.row-group div.form-row div.holder div h3 {
     margin: 0 20px 5px 0;
     font: 400 15px/18px "Noto Serif",serif;
     color: #54585a;
+    font-weight:bold;
 }
 
     .cart-block .item h1 a {
@@ -1771,7 +1772,7 @@ div.row-group div.form-row div.holder div h3 {
         color: #474747;
         text-transform: uppercase;
         margin: 2px 3px 0 0;
-        width: 33px;
+        width: 70px;
         font-weight: bold;
     }
 
@@ -1873,7 +1874,7 @@ div.row-group div.form-row div.holder div h3 {
     .cart-block .subtotal-row .count {
         clear: left;
         float: left;
-        color: #54585a;
+        color: red;
         font: 700 28px/30px "Noto Serif",serif;
     }
 
@@ -4858,6 +4859,7 @@ div.row-group div.form-row div.holder div h3 {
 
     .footer-holder.bottom-line p {
         margin: 0;
+        font-size:15px;
     }
 
 .footer-list {

@@ -35,78 +35,81 @@
     <script type="text/javascript" charset="UTF-8" src="./giohang/main_vi.js.tải xuống"></script>
     <link type="text/css" rel="stylesheet" href="./giohang/offers.css">
     <link rel="stylesheet" type="text/css" href="./giohang/visitor.css">
-    <style>
-        #myList li {
-            display: none;
-            /*padding: 10px;
-        border-width: 0 1px 1px 0;
-        border-style: solid;
-        border-color: #fff;
-        box-shadow: 0 1px 1px #ccc;
-        margin-bottom: 5px;
-        background-color: #f1f1f1;*/
-        }
-
-        /*#loadMore {
-            color: green;
-            cursor: pointer;
-        }*/
-
-        /*#loadMore:hover {
-                color: black;
-            }*/
-
-        #showLess {
-            color: red;
-            cursor: pointer;
-        }
-
-            #showLess:hover {
-                color: black;
-            }
-
-        #loadMore {
-            cursor: pointer;
-            padding: 10px;
-            text-align: center;
-            /*background-color: #33739E;*/
-            /*color: #fff;*/
-            /*border-width: 0 1px 1px 0;*/
-            /*border-style: solid;*/
-            /*border-color: #fff;*/
-            /*box-shadow: 0 1px 1px #ccc;*/
-            font-size: 15px;
-            transition: all 600ms ease-in-out;
-            -webkit-transition: all 600ms ease-in-out;
-            -moz-transition: all 600ms ease-in-out;
-            -o-transition: all 600ms ease-in-out;
-        }
-
-            #loadMore:hover {
-                background-color: #fff;
-                color: #33739E;
-            }
-    </style>
-    <script>
-        $(document).ready(function () {
-            size_li = $("#myList li").size();
-            x = 3;
-            $('#myList li:lt(' + x + ')').show();
-            $('#loadMore').click(function () {
-                x = (x + 5 <= size_li) ? x + 5 : size_li;
-                $('#myList li:lt(' + x + ')').show();
-            });
-            $('#showLess').click(function () {
-                x = (x - 5 < 0) ? 3 : x - 5;
-                $('#myList li').not(':lt(' + x + ')').hide();
-            });
-        });
-    </script>
-
+   
     <link rel="stylesheet" href="css/style1.css" />
 
     <script src="imagess/mootools-1.js" type="text/javascript"></script>
     <link rel="stylesheet" href="imagess/image-hover.css" type="text/css">
+
+    <style>
+        #scrolltop {
+            display: none;
+        }
+
+        #rocketmeluncur {
+            position: fixed;
+            bottom: 50px;
+            z-index: 7;
+            display: none;
+            visibility: hidden;
+            width: 26px;
+            height: 48px;
+            right: 25px;
+            background: url(https://1.bp.blogspot.com/-UR9I7YEuEUY/VXIJn8MrBPI/AAAAAAAAKRE/qZObHBd5zIo/s1600/rocket.png) 50% 0 no-repeat;
+            opacity: 0;
+            -webkit-transition: visibility .6s cubic-bezier(.6,.04,.98,.335),opacity .6s cubic-bezier(.6,.04,.98,.335),-webkit-transform .6s cubic-bezier(.6,.04,.98,.335);
+            -moz-transition: visibility .6s cubic-bezier(.6,.04,.98,.335),opacity .6s cubic-bezier(.6,.04,.98,.335),-moz-transform .6s cubic-bezier(.6,.04,.98,.335);
+            transition: visibility .6s cubic-bezier(.6,.04,.98,.335),opacity .6s cubic-bezier(.6,.04,.98,.335),transform .6s cubic-bezier(.6,.04,.98,.335);
+        }
+
+            #rocketmeluncur i {
+                display: block;
+                margin-top: 48px;
+                height: 14px;
+                background: url(https://1.bp.blogspot.com/-UR9I7YEuEUY/VXIJn8MrBPI/AAAAAAAAKRE/qZObHBd5zIo/s1600/rocket.png) 50% -48px no-repeat;
+                opacity: .5;
+                -webkit-transition: -webkit-transform .2s;
+                -moz-transition: -moz-transform .2s;
+                transition: transform .2s;
+                -webkit-transform-origin: 50% 0;
+                -moz-transform-origin: 50% 0;
+                transform-origin: 50% 0;
+            }
+
+            #rocketmeluncur:hover {
+                background-position: 50% -62px;
+            }
+
+                #rocketmeluncur:hover i {
+                    background-position: 50% 100%;
+                    -webkit-animation: flaming .7s infinite;
+                    -moz-animation: flaming .7s infinite;
+                    animation: flaming .7s infinite;
+                }
+
+            #rocketmeluncur.showrocket {
+                visibility: visible;
+                opacity: 1;
+            }
+
+            #rocketmeluncur.launchrocket {
+                background-position: 50% -62px;
+                opacity: 0;
+                -webkit-transform: translateY(-800px);
+                -moz-transform: translateY(-800px);
+                -ms-transform: translateY(-800px);
+                transform: translateY(-800px);
+                pointer-events: none;
+            }
+
+                #rocketmeluncur.launchrocket i {
+                    background-position: 50% 100%;
+                    -webkit-transform: scale(1.4,3.2);
+                    -moz-transform: scale(1.4,3.2);
+                    transform: scale(1.4,3.2);
+                }
+    </style>
+
 </head>
 <body class="lucky"  style="position: relative; min-height: 100%; top: 0px;">
     <form name="aspnetForm" method="post" action="#" id="aspnetForm">
@@ -122,7 +125,7 @@
                                 <div align="center" id="topiccontent" style="100%; color: white;">
                                     <div id="swbanner3">
                                         <a href="#">
-                                            <img src="images/SeaweedGWP_Sitewide.png" title="Seaweed Bath GWP" width="975" height="24" border="0">
+                                            <img src="images/SeaweedGWP_Sitewide.png" width="975" height="24" border="0">
                                         </a>
                                     </div>
                                 </div>
@@ -165,7 +168,7 @@
                                 <div class="header-block">
 
                                     <strong class="logo">
-                                        <a href="#" id="ctl00_ctl00_aHome">
+                                        <a href="danhsachsanpham.html" id="ctl00_ctl00_aHome">
                                             <img class="show-larger" src="images/logo.png" height="116" width="234" alt="lucky vitamin">
                                             <img class="show-smaller" src="images/logo-smaller.png" height="75" width="202" alt="lucky vitamin">
                                         </a>
@@ -178,11 +181,10 @@
                                                 <div class="drop">
                                                     <div class="holder">
                                                         <ul class="list">
-                                                            <li><a href="#">Về chúng tôi</a></li>
+                                                            <li><a href="gioithieuchungtoi.html">Về chúng tôi</a></li>
                                                             <li><a href="#">Cam kết</a></li>
-                                                            <li><a href="#">Liên hệ</a></li>
+                                                            <li><a href="lienhe.html">Liên hệ</a></li>
                                                             <li><a href="#">Dịch vụ khách hàng</a></li>
-                                                            <li><a href="#">Hướng dẫn mua hàng</a></li>
                                                             <li><a href="#">Cẩm nang sức khỏe</a></li>
                                                         </ul>
                                                     </div>
@@ -194,11 +196,10 @@
                                                 <div class="drop">
                                                     <div class="holder">
                                                         <ul class="list">
-                                                            <li><a href="#">Nutrilite</a></li>
-                                                            <li><a href="#">Herbalife</a></li>
-                                                            <li><a href="#">Vision</a></li>
-                                                            <li><a href="#">Good Health</a></li>
-                                                            <li><a href="#">Amaway</a></li>
+                                                            <li><a href="danhsachsanpham.html">Nutrilite</a></li>
+                                                            <li><a href="danhsachsanpham.html">Herbalife</a></li>
+                                                            <li><a href="danhsachsanpham.html">Vision</a></li>
+                                                            <li><a href="danhsachsanpham.html">Good Health</a></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -207,14 +208,12 @@
                                                 <span>Thực phẩm</span>
                                                 <div class="drop">
                                                     <div class="holder">
-
                                                         <ul class="list">
-
                                                             <li><a href="#">Chống lão hóa</a></li>
                                                             <li><a href="#">Tăng cơ</a></li>
                                                             <li><a href="#">Giảm cân</a></li>
                                                             <li><a href="#">Trắng da</a></li>
-                                                            <li><a href="#">Collagen</a></li>
+                                                            <li><a href="#">Trị nám</a></li>
                                                             <li><a href="#">Tim mạch</a></li>
                                                             <li><a href="#">Gan</a></li>
                                                             <li><a href="#">Hô hấp</a></li>
@@ -292,13 +291,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div id="EmptyMiniCart" class="drop hidden">
-                                                        <div class="holder">
-                                                            <div class="start-message">
-                                                                <img src="./danhsachsanpham/img-card01.png" width="338" height="203" alt="image description"><span class="head">Your cart is empty, how unlucky!</span><p>Start shopping now and fill it up with great healthy goodies &amp; fantastic savings!</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+
                                                 </div>
                                             </div>
 
@@ -317,74 +310,64 @@
                                                         <div class="head-main">
                                                             <h1>LUCKY VITAMIN</h1>
                                                         </div>
-                                                        <div class="drop-row-holder">
-                                                            <div class="col">
-                                                                <div class="divider">
-                                                                    <a href="#">
-                                                                        <div class="image-holder">
-                                                                            <img src="images/Category/top_depts/2975.jpg_-466878619.jpg" height="85" width="124">
+                                                        <div class="brands-block">
+                                                            <ul class="brands-list">
+                                                                <li>
+                                                                    <a href="gioithieuchungtoi.html">
+                                                                        <div class="img" id="img-1">
+                                                                            <img src="images/Category/top_depts/2975.jpg_-466878619.jpg" width="220" height="150" style="margin-left:20px">
                                                                         </div>
                                                                     </a>
-                                                                </div>
-                                                                <strong class="title">
-                                                                    <a href="#">Về chúng tôi</a>
-                                                                </strong>
-                                                            </div>
-                                                            <div class="col">
-                                                                <div class="divider">
-                                                                    <a href="#">
-                                                                        <div class="image-holder">
-                                                                            <img src="images/Category/top_depts/1X.jpg_-466878619.jpg" height="85" width="124">
-                                                                        </div>
-                                                                    </a>
-                                                                </div><strong class="title"><a href="#">Cam kết & giấy xác nhận</a></strong>
-                                                            </div>
-                                                            <div class="col">
-                                                                <div class="divider">
-                                                                    <a href="#">
-                                                                        <div class="image-holder">
-                                                                            <img src="images/Category/top_depts/1J.jpg_-466878619.jpg" height="85" width="124">
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                                <strong class="title">
-                                                                    <a href="#">Kiến thức</a>
-                                                                </strong>
-                                                            </div>
-                                                            <div class="col">
-                                                                <div class="divider">
-                                                                    <a href="#">
-                                                                        <div class="image-holder">
-                                                                            <img src="images/gioithieu/lienhe.png" height="85" width="124">
-                                                                        </div>
-                                                                    </a>
-                                                                </div><strong class="title"><a href="#">Liên hệ</a></strong>
-                                                            </div>
-                                                            <div class="col">
-                                                                <div class="divider">
-                                                                    <a href="#">
-                                                                        <div class="image-holder">
-                                                                            <img alt="image description" src="images/Category/top_depts/1G.jpg_-466878619.jpg" height="85" width="124">
-                                                                        </div>
-                                                                    </a>
-                                                                </div><strong class="title"><a href="#">Dịch vụ khách hàng</a></strong>
-                                                            </div>
-                                                            <div class="col">
-                                                                <div class="divider">
-                                                                    <a href="#">
-                                                                        <div class="image-holder">
-                                                                            <img src="images/Category/top_depts/1Q.jpg_-466878619.jpg" height="85" width="124">
-                                                                        </div>
-                                                                    </a>
-                                                                </div><strong class="title"><a href="#">Hướng dẫn mua hàng</a></strong>
-                                                            </div>
-                                                        </div>
+                                                                    <h2>
+                                                                        <a href="gioithieuchungtoi.html" style="margin-left:0px">Chúng tôi</a>
+                                                                    </h2>
+                                                                </li>
 
+                                                                <li>
+                                                                    <a>
+                                                                        <div class="img" id="img-2">
+                                                                            <img src="images/Category/top_depts/1X.jpg_-466878619.jpg" width="220" height="150">
+                                                                        </div>
+                                                                    </a>
+                                                                    <h2><a href="#" style="margin-left:-27px">Cam kết</a></h2>
+                                                                </li>
+
+                                                                <li>
+                                                                    <a href="lienhe.html">
+                                                                        <div class="img" id="img-2">
+
+                                                                            <img src="images/gioithieu/lienhe.png" width="220" height="150">
+                                                                        </div>
+                                                                    </a>
+                                                                    <h2><a href="lienhe.html" style=" margin-left:-27px">Liên hệ</a></h2>
+                                                                </li>
+
+                                                                <li>
+                                                                    <a>
+                                                                        <div class="img" id="img-2">
+
+                                                                            <img src="images/gioithieu/services.png" width="220" height="150">
+                                                                        </div>
+                                                                    </a>
+                                                                    <h2><a href="#" style="margin-left:-27px">Dịch vụ</a></h2>
+                                                                </li>
+
+                                                                <li>
+                                                                    <a>
+                                                                        <div class="img" id="img-2">
+
+                                                                            <img src="images/gioithieu/camnang.png" width="220" height="150">
+                                                                        </div>
+                                                                    </a>
+                                                                    <h2><a href="#" style="margin-left:-27px">Cẩm nang sức khỏe</a></h2>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
-                                                </div>
                                             </li>
                                             <li class="big-drop">
-                                                <a href="#"><span>Thương Hiệu</span></a><div class="drop">
+                                                <a href="#"><span>Thương Hiệu</span></a>
+                                                <div class="drop">
                                                     <div class="holder">
                                                         <div class="drop-holder">
                                                             <div class="slide">
@@ -396,8 +379,6 @@
                                                                         <li>
                                                                             <a>
                                                                                 <div class="img" id="img-1">
-                                                                                    <!--<div class="mask"></div>-->
-                                                                                    <!--<img src="imagess/01.jpg">-->
                                                                                     <img src="images/brand/nutrilite1.jpg" width="220" height="150">
                                                                                 </div>
                                                                             </a>
@@ -407,21 +388,18 @@
                                                                         </li>
 
                                                                         <li>
-                                                                            <a>
+                                                                            <a href="danhsachsanpham.html">
                                                                                 <div class="img" id="img-2">
-                                                                                    <!--<div class="mask"></div>-->
-                                                                                    <!--<img src="imagess/01.jpg">-->
                                                                                     <img src="images/brand/herbalife.jpg" width="220" height="150">
                                                                                 </div>
                                                                             </a>
-                                                                            <h2><a href="#" style="margin-left:-27px">Herbalife</a></h2>
+                                                                            <h2><a href="danhsachsanpham.html" style="margin-left:-27px">Herbalife</a></h2>
                                                                         </li>
 
                                                                         <li>
                                                                             <a>
                                                                                 <div class="img" id="img-2">
-                                                                                    <!--<div class="mask"></div>-->
-                                                                                    <!--<img src="imagess/01.jpg">-->
+
                                                                                     <img src="images/brand/vision.jpg" width="220" height="150">
                                                                                 </div>
                                                                             </a>
@@ -431,49 +409,13 @@
                                                                         <li>
                                                                             <a>
                                                                                 <div class="img" id="img-2">
-                                                                                    <!--<div class="mask"></div>-->
-                                                                                    <!--<img src="imagess/01.jpg">-->
+
                                                                                     <img src="images/brand/goodhealth1.jpg" width="220" height="150">
                                                                                 </div>
                                                                             </a>
                                                                             <h2><a href="#" style="margin-left:-27px">Good Health</a></h2>
                                                                         </li>
 
-                                                                        <!--<li>
-                                                            <a>
-                                                                <div class="img" id="img-1">
-
-                                                                    <img src="images/brand/amway.jpg" width="220" height="150">
-                                                                </div>
-                                                            </a>
-                                                            <h2><a href="#">Amway</a></h2>
-                                                        </li>-->
-                                                                        <!--<li>
-                                                            <a href="#" class="logo-box" >
-                                                                <img  src="images/brand/nutrilite1.jpg">
-                                                            </a>
-                                                            <h2><a href="#">Nutrilite</a></h2>
-                                                        </li>-->
-                                                                        <!--<li>
-                                                            <a href="#" class="logo-box">
-                                                                <img alt="Alba Botanica" src="images/brand/herbalife.jpg">
-                                                            </a><h2><a href="#">Herbalife</a></h2>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#" class="logo-box">
-                                                                <img alt="Garden of Life" src="images/brand/vision.jpg">
-                                                            </a><h2><a href="/m-153-garden-of-life">Vision</a></h2>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#" class="logo-box">
-                                                                <img alt="Mrs. Meyer's" src="images/brand/goodhealth1.jpg">
-                                                            </a><h2><a href="#">Good Health</a></h2>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#" class="logo-box">
-                                                                <img alt="Jarrow Formulas" src="images/brand/amway.jpg">
-                                                            </a><h2><a href="#">Amway</a></h2>
-                                                        </li>-->
 
                                                                     </ul>
                                                                 </div>
@@ -646,51 +588,7 @@
                                                                             </div>
                                                                         </a>
                                                                     </li>
-                                                                    <!--<li>
-                                                        <a href="#">
-                                                            <span class="image-holder">
 
-                                                                <img alt="" src="images/lamdep/laohoa.jpg">
-
-                                                            </span><span class="text">Chống lão hoá</span>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">
-                                                            <span class="image-holder">
-
-                                                                <img alt="" src="images/lamdep/tangco.jpg">
-
-                                                            </span><span class="text">Tăng cơ</span>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">
-                                                            <span class="image-holder">
-
-                                                                <img alt="" src="images/lamdep/giamcan.jpg">
-
-                                                            </span><span class="text">Giảm cân</span>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">
-                                                            <span class="image-holder">
-
-                                                                <img alt="" src="images/lamdep/trangda.jpg">
-
-                                                            </span><span class="text">Trắng da</span>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">
-                                                            <span class="image-holder">
-
-                                                                <img alt="" src="images/lamdep/colagen.jpg">
-
-                                                            </span><span class="text">Collagen</span>
-                                                        </a>
-                                                    </li>-->
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -896,7 +794,7 @@
                                                                                     <a href="#" id="hlImgProdIcon">
                                                                                         <img src="./giohang/sanpham/herbalife.jpg" id="imgProdIcon">
                                                                                     </a>
-                                                                                    <a href="#" id="hlSKULink" class="cartImageSKU">Mã sản phẩm 152017</a>
+                                                                                   
                                                                                 </div>
                                                                                 <div class="description">
                                                                                     <strong class="title-product">
@@ -967,7 +865,7 @@
                                                                                 <a href="#" id="hlImgProdIcon">
                                                                                     <img src="./giohang/sanpham/2.jpg" id="imgProdIcon" >
                                                                                 </a>
-                                                                                <a href="#" id="hlSKULink" class="cartImageSKU">Mã sản phẩm 114638</a>
+                                                                                
                                                                             </div>
                                                                             <div class="description">
                                                                                 <strong class="title-product"><a href="#" id="hlProd">Hydrate Hương cam – 300g</a></strong>
@@ -1041,7 +939,7 @@
                                                                                 <a href="#" id="hlImgProdIcon">
                                                                                     <img src="./giohang/sanpham/3.jpg" id="imgProdIcon">
                                                                                 </a>
-                                                                                <a href="#" id="hlSKULink" class="cartImageSKU">Mã sản phẩm 148099</a>
+                                                                               
                                                                             </div>
                                                                             <div class="description">
                                                                                 <strong class="title-product"><a href="#" id="hlProd">Sport Hương Vani - 450g</a></strong>
@@ -1266,7 +1164,9 @@
                                         
                                     </div>
                                 </section>
+                               
                                 <div class="box-shadow product-box wide noPrintFriendly" id="recentlyViewedSection">
+                                   
                                     <div class="title noPrintFriendly">
                                         <h1>Đã xem gần đây</h1>
                                     </div>
@@ -1343,7 +1243,7 @@
                                                 <h1 class="entry-title"><a href="#">5 lý do bạn phải bổ sung vitamin</a></h1>
                                                 <span class="meta published">04/12/2016</span>
                                             </div>
-                                            <a href="#" class="link-more" target="_blank">Đọc thêm bài viết</a>
+                                           
                                         </div>
                                     </div>
 
@@ -1498,13 +1398,50 @@
             </div>
         </div>
      </form>
+    <link rel='stylesheet' id='popup-messenger-css' href='wp-content/plugins/facebook-messenger/frontend/css/popup.css?ver=1.0.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='messenger-css' href='wp-content/plugins/facebook-messenger/frontend/css/messenger.css?ver=1.0.1' type='text/css' media='all' />
+    <script type='text/javascript' src='wp-includes/js/jquery/jquery.js'></script>
+
+    <script type='text/javascript' src='wp-content/themes/ask-me/js/custom.js'></script>
+    <div class="drag-wrapper drag-wrapper-right">
+        <div data-drag="data-drag" class="thing">
+            <div class="circle facebook-messenger-avatar facebook-messenger-avatar-type0">
+                <img class="facebook-messenger-avatar" src="http://opencarttricks.com/wp-content/plugins/facebook-messenger/frontend/images/facebook-messenger.svg" />
+            </div>
+            <div class="content">
+                <div class="inside">
+                    <div class="fb-page" data-width="310" data-height="310" data-href="https://www.facebook.com/opencarttricks/" data-tabs="messages" data-small-header="false" data-hide-cover="false" data-show-facepile="true" data-adapt-container-width="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/opencarttricks/"><a href="https://www.facebook.com/opencarttricks/">Loading...</a></blockquote></div></div>
+                </div>
+            </div>
+        </div>
+        <div class="magnet-zone">
+            <div class="magnet"></div>
+        </div>
+    </div>
+
+
+    <a href="javascript:void(0);" id="rocketmeluncur" class="showrocket"><i></i></a>
+
+    <script type='text/javascript'>
+        //<![CDATA[
+        jQuery(window).scroll(function () { jQuery(window).scrollTop() < 50 ? jQuery("#rocketmeluncur").slideUp(500) : jQuery("#rocketmeluncur").slideDown(500); var e = jQuery("#ft")[0] ? jQuery("#ft")[0] : jQuery(document.body)[0], t = $("rocketmeluncur"), n = (parseInt(document.documentElement.clientHeight), parseInt(document.body.getBoundingClientRect().top), parseInt(e.clientWidth)), r = t.clientWidth; if (1e3 > n) { var l = parseInt(fetchOffset(e).left); l = r > l ? 2 * l - r : l, t.style.left = n + l + "px" } else t.style.left = "auto", t.style.right = "10px" }), jQuery("#rocketmeluncur").click(function () { jQuery("html, body").animate({ scrollTop: "0px", display: "none" }, { duration: 600, easing: "linear" }); var e = this; this.className += " launchrocket", setTimeout(function () { e.className = "showrocket" }, 800) });
+        //]]>
+    </script>
+
+    <!--</form>-->
     <script type="text/javascript" xmlns:omnica="urn:omnica">
         var cid = 'ed441d95dfb1990ae79c4ba957447dcd';
-        (function() {
+        (function () {
             var jnxtac = jQuery.noConflict(true);
-            jnxtac('header .search-form input[type="text"]').autocomplete({cid:cid});
+            jnxtac('header .search-form input[type="text"]').autocomplete({ cid: cid });
         })();
     </script>
+
+    <script type='text/javascript' src='wp-content/plugins/facebook-messenger/frontend/js/popup.js'></script>
+    <script type='text/javascript' src='wp-content/plugins/facebook-messenger/frontend/js/jquery.event.move.js'></script>
+    <script type='text/javascript' src='wp-content/plugins/facebook-messenger/frontend/js/rebound.min.js'></script>
+    <script type='text/javascript' src='wp-content/plugins/facebook-messenger/frontend/js/index.js'></script>
+
    
     <script type="text/javascript" src="./giohang/main.js.tải xuống" xmlns:omnica="urn:omnica"></script>
  </body>

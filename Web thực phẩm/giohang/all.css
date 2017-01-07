@@ -4861,6 +4861,7 @@ div.row-group div.form-row div.holder div h3 {
 
     .footer-holder.bottom-line p {
         margin: 0;
+        font-size:15px;
     }
 
 .footer-list {
@@ -6352,7 +6353,7 @@ div.input-holder-text-area textarea#Comments.required {
     }
 
 #main.products-listview {
-    padding: 11px 0 58px;
+    /*padding: 11px 0 58px;*/
 }
 
 .breadcrumbs {
@@ -11193,10 +11194,10 @@ input.btn-proced {
 }
 
 .product-box .title {
-    /*border-bottom: 4px solid #c5e86c;*/
+    border-bottom: 4px solid #c5e86c;
     overflow: hidden;
-    /*margin: 0 0 30px;*/
-    /*padding: 0 0 5px;*/
+    margin: 0 0 30px;
+    padding: 0 0 5px;
 }
 
     .product-box .title h1 {
@@ -14019,7 +14020,7 @@ input#btnSubmit.submitProductReview {
 
 .right-column .btn-proced {
     float: none;
-    margin: 11px 21px 18px;
+    margin: 11px 35px 18px;
 }
 /* payment method */
 .payment-01 {
@@ -23493,7 +23494,7 @@ button:hover {
 }
 
 .cart-area-wrap {
-    border-bottom: 1px solid #dedede;
+    /*border-bottom: 1px solid #dedede;*/
     padding-bottom: 20px;
 }
 
