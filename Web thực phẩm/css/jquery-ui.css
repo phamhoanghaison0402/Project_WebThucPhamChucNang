@@ -840,7 +840,7 @@ body .ui-tooltip {
 }
 
 .ui-widget {
-    font-family: Noto Serif,Noto Serif,sans-serif;
+    font-family: Noto Serif,Noto Serif,serif;
     font-size: 1.1em;
 }
 
@@ -849,7 +849,7 @@ body .ui-tooltip {
     }
 
     .ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
-        font-family: Noto Serif,Noto Serif,sans-serif;
+        font-family: Noto Serif,Noto Serif,serif;
         font-size: 1em;
     }
 

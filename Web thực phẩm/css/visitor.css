@@ -5,7 +5,7 @@
 }
 
 #lc_chat_layout {
-    font-family: "",Cambria,Cambria,sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,serif;
     display: block;
     width: 300px;
     text-align: left !important;
@@ -34,7 +34,7 @@
         margin: 0;
         padding: 0;
         line-height: normal;
-        font-family: "",Cambria,Cambria,sans-serif;
+        font-family: "Helvetica Neue",Helvetica,Arial,serif;
         font-size: 100%;
         font-weight: inherit;
         text-transform: inherit;
@@ -130,7 +130,7 @@
         float: right;
         width: 16px;
         height: 16px;
-        font-family: sans-serif;
+        font-family: serif;
         font-weight: 400;
         text-align: center;
         line-height: 14px;
@@ -218,7 +218,7 @@
         height: 43px;
         padding: 10px;
         cursor: pointer;
-        font-family: "",Cambria,Cambria,sans-serif;
+        font-family: "Helvetica Neue",Helvetica,Arial,serif;
         border: 1px solid rgba(0,0,0,0.2);
         background-image: url("/images/chat-icon.svg");
         background-size: 20px 20px;
@@ -1280,7 +1280,7 @@ html.lc-cb-container-vi.lc-cb-active-vi.lc-cb-controlling-vi #lc_chat_layout {
     font-size: 13px;
     list-style: none;
     border-radius: 5px;
-    font-family: "",Cambria,Cambria,sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,serif;
 }
 
     .lc-cb-container-vi .lc-cb-actions-vi li {
