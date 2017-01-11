@@ -82,6 +82,7 @@ span.reference a:hover{
 	position:relative;
 	background:transparent url(../images/bg.png) no-repeat -22px -18px;
     float:left;
+    margin-left:25px;
 }
 .book_wrapper h1{
 	color:#13386a;
