@@ -4447,7 +4447,7 @@ del.usualPrice {
 .pdp .description-area .aside-area .reward-area .title, .pdp .description-area .aside-area .shipping .title {
     display: inline;
     padding: 4px 0 0;
-    padding-left: 6px;
+    /*padding-left: 6px;*/
     margin: 0 0 -7px;
     font: bold 13px/12px Noto Serif,Noto Serif,serif;
     text-transform: Capitalize !important;
@@ -4460,7 +4460,7 @@ del.usualPrice {
 
 .pdp .description-area .aside-area .shipping .text-holder {
     background: none;
-    padding: 5px 0 0 25px;
+    padding: 5px 0 0 23px;
     position: relative;
     font: 11px/13px Noto Serif,Noto Serif,serif;
     color: #81878a;
